@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraConfig>
+	<Cameras>
+		<Camera>
+			<Title>Default Camera</Title>
+			<FOVs>
+				<FOV>10</FOV>
+				<FOV>50</FOV>
+				<FOV>90</FOV>
+			</FOVs>
+			<Position>1,0,0</Position>
+			<Rotation>0,2,0</Rotation>
+			<FarPlane>10000.0</FarPlane>
+			<NearPlane>50.0</NearPlane>
+			<BlurIntensity>0.0</BlurIntensity>
+		</Camera>
+		<Camera>
+			<Title>Camera 2</Title>
+			<FOVs>
+				<FOV>20</FOV>
+				<FOV>80</FOV>
+			</FOVs>
+			<Position>4,0,0</Position>
+			<Rotation>5,0,0</Rotation>
+			<FarPlane>20000.0</FarPlane>
+			<NearPlane>20.0</NearPlane>
+			<BlurIntensity>02.0</BlurIntensity>
+		</Camera>
+	</Cameras>
+</CameraConfig>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GimbelConfig>
+	<Gimbal>
+		<AzmuthValues>
+			<AzimuthMin>0</AzimuthMin>
+			<AzimuthMax>360</AzimuthMax>
+			<ElevationMin>-90</ElevationMin>
+			<ElevationMax>90</ElevationMax>
+		</AzmuthValues>
+		<CameraProperties>
+			<PitchPanSpeed>3</PitchPanSpeed>
+			<YawPanSpeed>3</YawPanSpeed>
+			<InitialRotation>0,0,0</InitialRotation>
+			<InitialPosition>0,0,0</InitialPosition>
+		</CameraProperties>
+	</Gimbal>
+</GimbelConfig>

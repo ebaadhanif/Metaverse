@@ -1,0 +1,119 @@
+#pragma once
+
+#pragma region PDUS
+#include <DIS7\AttributePdu.h>
+#include <DIS7\DataPdu.h>
+#include <DIS7\DataQueryPdu.h>
+#include <DIS7\DetonationPdu.h>
+#include <DIS7\ElectromagneticEmissionsPdu.h>
+#include <DIS7\EntityStatePdu.h>
+#include <DIS7\EntityStateUpdatePdu.h>
+#include <DIS7\EventReportPdu.h>
+#include <DIS7\IFFPdu.h>
+#include <DIS7\RemoveEntityPdu.h>
+#include <DIS7/AcknowledgePdu.h>
+#pragma endregion PDUS
+
+#pragma region DATA_TYPES
+#include <DIS7\EntityID.h>
+#pragma endregion DATA_TYPES
+
+#pragma region ENUMS
+#include <DISUtils/BitwiseManager.h>
+#include <DISEnums/ResponseFlag.h>
+#include <DISEnums/AcknowledgeFlag.h>
+#include <DISEnums/StateChangeUpdateIndicator.h>
+#include <DISEnums/ProtocolFamily.h>
+#include <DISEnums/ProtocolVersion.h>
+#include <DISEnums/AFISE\EmitterSystemFunction.h>
+#include <DISEnums/BeamFunction.h>
+#include <DISEnums/AFISE\ElectromagneticEmissionEvents.h>
+#include <DISEnums/PlatformAir.h>
+#include <DISEnums/PlatformLand.h>
+#include <DISEnums/MunitionCategory.h>
+#include <DISEnums/HighDensityTrackJam.h>
+#include <DISEnums/BeamState.h>
+#include <DISEnums/DeadReckoningParametersType.h>
+#include <DISEnums/Warhead.h>
+#include <DISEnums/Fuse.h>
+#include <DISEnums/SystemType.h>
+#include <DISEnums/SystemName.h>
+#include <DISEnums/SystemMode.h>
+#include <DISEnums/ComponentIdentification.h>
+#include <DISEnums/ComponentDamageStatus.h>
+#include <DISEnums/ComponentVisualSmokeColor.h>
+#include <DISEnums/StateUpdateFlag.h>
+#include <DISEnums/EntityDomain.h>
+#include <DISEnums/AFISE\ApplicationID.h>
+#include <DISEnums/AFISE\SiteID.h>
+#include <DISEnums/EntityKind.h>
+#include <DISEnums/EntityDomain.h>
+#include <DISEnums/CountryType.h>
+#include <DISEnums/SensorEmitterCategory.h>
+#include <DISEnums/DeadReckoningAlgorithm.h>
+#include <DISEnums/AFISE\Pakistan\ArticulatedParameters.h>
+#include <DISEnums/ExpendableAirCategory.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_F16.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_F7.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_JF17.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_MirageIII.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_MirageV.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_F16.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_F7.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_JF17.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_MirageIII.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_MirageV.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_Reconnaissance_F16.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_Trainer_Cessna318.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_Trainer_PACMFI17.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_ASWPatrolObservation.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_AttackStrike.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_F16.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_F7.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_JF17.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_MirageIII.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_AttackStrike_MirageV.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_CargoHelicopter.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_CargoTanker.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_ElectronicWarfare.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_F16.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_F7.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_MirageIII.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_FighterAirDefence_MirageV.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_FighterAirDefense.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_ObservationHelicopter.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_Reconnaissance.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_Reconnaissance_F16.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_SpecialOperationsHelicopter.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_SurveillanceC2AEW.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_Trainer.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_Trainer_Cessna318.h>
+#include <DISEnums/AFISE\Pakistan\Air_Specific_Trainer_PACMFI17.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_Unmanned.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_UtilityHelicopter.h>
+#include <DISEnums/AFISE\Pakistan\Air_SubCat_AttackHelicopter.h>
+#include <DISEnums/AFISE\Airliners\Air_Specific_CivilianFixedWingAircraft_Heavy.h>
+#include <DISEnums/AFISE\Airliners\Air_Specific_CivilianFixedWingAircraft_Medium.h>
+#include <DISEnums/AFISE\Airliners\Air_Specific_CivilianFixedWingAircraft_Large.h>
+#include <DISEnums/PlatformAirFWASubCategories.h>
+#include <DISEnums/AFISE\Pakistan\Munition_Specific_Anti_Air_AIM_120.h>
+#include <DISEnums/AFISE\Pakistan\Munition_Specific_Anti_Air_AIM_9LM.h>
+#include <DISEnums/AFISE\Pakistan\Munition_Specific_Anti_Radar_AGM_88_HARM.h>
+#include <DISEnums/AFISE\Pakistan\Munition_SubCat_Anti_Air.h>
+#include <DISEnums/AFISE\Pakistan\Munition_SubCat_Anti_Radar.h>
+#include <DISEnums/AFISE\Pakistan\Land_Specific_Sensor_Emitter.h>
+#include <DISEnums/AFISE\Pakistan\Land_Specific_Detection_Center.h>
+#include <DISEnums/AFISE\Pakistan\Land_Specific_Spada_Firing_Section.h>
+#include <DISEnums/AFISE\Pakistan\Land_SubCat_Spada_SAM_System.h>
+#include <DISEnums/AFISE\Pakistan\Land_Specific_Spada_Firing_Section.h>
+#include <DISEnums/AFISE\India\INDIA_Air_SubCat_AttackStrike.h>
+#include <DISEnums/AFISE\India\INDIA_Air_SubCat_FighterAirDefense.h>
+#include <DISEnums/AFISE\India\INDIA_Air_SubCat_Unmanned.h>
+#include <DISEnums/AFISE\India\INDIA_Air_SubCat_UtilityHelicopter.h>
+#include <DISEnums/AFISE\USA\USA_Air_SubCat_Unmanned.h>
+#include <DISEnums/JammingTechniqueKind.h>
+#include <DISEnums/NoiseCategory.h>
+#include <DISEnums/BarrageNoiseSubcategory.h>
+#pragma endregion ENUMS
+
+

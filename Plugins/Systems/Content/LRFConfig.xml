@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LRFConfig>
+	<LRFs>
+		<LRF>
+			<Title>LRF</Title>
+			<Range>20</Range>
+			<Position>0,0,0</Position>
+			<Rotation>0,0,0</Rotation>
+		</LRF>
+	</LRFs>
+</LRFConfig>

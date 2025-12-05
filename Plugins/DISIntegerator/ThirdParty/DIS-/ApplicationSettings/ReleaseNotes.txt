@@ -1,0 +1,34 @@
+================================================================================
+				DIS APPLICATION SETTINGS DIALOG RELEASE NOTES
+===============================================================================
+
+Version 1.1.0.0
+===============
+23/07/2024
+===============
+Changes and Fixes:
+- Updated error messgages for DB and file exceptions
+- Added authentication for modifications
+
+===============================================================================
+
+Version 1.0.0.0
+===============
+26/06/2024
+===============
+Changes and Fixes:
+- Fixed entity kind and domain data issues in comboboxes
+- Added screen options to allow applications to send dialog position and made dialog moveable on the screen
+- Disabled opening of multiple dialog instances  
+- Minor design changes
+
+===============================================================================
+
+Initial Release 
+===============
+12/06/2024
+===============
+Features:
+- Added dialog controls and file handling for DIS settings 
+- Added modification option for DIS settings
+- Displayed DIS network configurations read-only information from file

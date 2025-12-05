@@ -1,0 +1,66 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Metaverse",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "XRBase",
+			"Enabled": true
+		},
+
+		{
+			"Name": "InputDevicesHandler",
+			"Enabled": true
+		},
+		{
+			"Name": "AFISEDrawingsLoader",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		
+		{
+			"Name": "TerrainSystemConfig",
+			"Enabled": true
+		},
+		{
+			"Name": "ShpFileReader",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "RuntimeModelsImporter",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "Systems",
+			"Enabled": true
+		}
+
+
+	],
+	"TargetPlatforms": [
+		"Windows"
+	]
+}

@@ -1,0 +1,21 @@
+#pragma once
+
+#include <DISUtils/ActionRequestPduProcessor.h>
+#include <DISUtils/ActionResponsePduProcessor.h>
+#include <DISUtils/AttributePduProcessor.h>
+#include <DISUtils/StartResumePduProcessor.h>
+#include <DISUtils/StopFreezePduProcessor.h>
+#include <DISUtils/AcknowledgePduProcessor.h>
+#include <DISUtils/CollisionPduProcessor.h>
+#include <DISUtils/EntityStatePduProcessor.h>
+#include <DISUtils/ElectromagneticEmissionPduProcessor.h>
+#include <DISUtils/IFFPduProcessor.h>
+#include <DISUtils/EntityStateUpdatePduProcessor.h>
+#include <DISUtils/RemoveEntityPduProcessor.h>
+#include <DISUtils/FirePduProcessor.h>
+#include <DISUtils/DetonationPduProcessor.h>
+#include <DISUtils/DataPduProcessor.h>
+#include <DISUtils/DataQueryPduProcessor.h>
+#include <DISUtils/EventReportPduProcessor.h>
+#include <DISUtils/SignalPduProcessor.h>
+#include <DISUtils/SetDataPduProcessor.h>

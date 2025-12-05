@@ -1,0 +1,460 @@
+#DIS Enumerations
+#Author,Adila Amin
+#Created DateTime,23/05/2025 10:20:32 am
+#Comments,Added BrahMos SLCM
+#
+#[AFISE]Type,Name,Code,HexValue,[EntityType]KindID,KindDesc,DomainID,DomainDesc,CountryID,CountryDesc,CategoryID,CategoryDesc,SubCategoryID,SubCategoryDesc,SpecificID,SpecificDesc,ExtraID,ExtraDesc,[AlternateEntityType]KindID,KindDesc,DomainID,DomainDesc,CountryID,CountryDesc,CategoryID,CategoryDesc,SubCategoryID,SubCategoryDesc,SpecificID,SpecificDesc,ExtraID,ExtraDesc,Description,RCS
+#Start
+F7P,Chengdu F-7 P,7003,0x1B5B,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,3,F-7 Fishbed,1,F-7 P,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+F7PG,Chengdu F-7 PG,7004,0x1B5C,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,3,F-7 Fishbed,2,F-7 PG,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+MirageIII,Dassault Mirage-III,7005,0x1B5D,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,4,Mirage-III,1,EA,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+MirageIIIRose,Dassault Mirage-III ROSE,7006,0x1B5E,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,4,Mirage-III,4,RP,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+MirageV,Dassault Mirage-V,7007,0x1B5F,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,5,Mirage-V,4,DR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+F16,F-16 Fighting Falcon,7008,0x1B60,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,1,F-16 Fighting Falcon,1,Block-15,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+F16A,F-16 Fighting Falcon A,7009,0x1B61,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,1,F-16 Fighting Falcon,2,MLU,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+F16C,F-16 Fighting Falcon C,7010,0x1B62,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,1,F-16 Fighting Falcon,3,Block-52,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1.5
+JF17_B1,JF-17 Block-I Thunder,7001,0x1B59,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,2,JF-17 Thunder,1,Block-1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+SSS,Saab 2000 AEW&C,8402,0x20D2,1,Platform,2,Air,165,Pakistan,8,Surveillance/C2,1,Saab 2000 AEW&C,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,70
+KE03,Karakoram Eagle 03,8401,0x20D1,1,Platform,2,Air,165,Pakistan,8,Surveillance/C2,2,KE-03 AEW&C,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+C130,C-130 Hercules,8602,0x219A,1,Platform,2,Air,165,Pakistan,4,Cargo/Tanker,1,C-130,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,80
+CASA_CN235,CASA CN 235-220,8603,0x219B,1,Platform,2,Air,165,Pakistan,4,Cargo/Tanker,2,CASA CN235-220,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,75
+IL78,Illyushin IL-78,8601,0x2199,1,Platform,2,Air,165,Pakistan,4,Cargo/Tanker,3,Ilyushin IL-78 MP,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,120
+Falcon20,Falcon Eagle 20,8403,0x20D3,1,Platform,2,Air,165,Pakistan,6,Electronic Warfare (EW),1,Dassault Falcon 20 E/F,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,70
+Bell1ZViper,Bell 1Z Viper,8004,0x1F44,1,Platform,2,Air,165,Pakistan,20,Attack Helicopter,2,Bell AH-1Z Viper,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,2
+BellAH1FCobra,Bell AH 1F Cobra,8005,0x1F45,1,Platform,2,Air,165,Pakistan,20,Attack Helicopter,3,Bell AH-1F Cobra,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,2
+AllouteIII,Alloute III Helicopter,8001,0x1F41,1,Platform,2,Air,165,Pakistan,21,Utility Helicopter,1,Alloutte-III,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+AgustaAW139,Agusta Westland 139,8006,0x1F46,1,Platform,2,Air,165,Pakistan,21,Utility Helicopter,2,Agusta Westland AW-139,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,2
+MI17,MI-17 Helicopter,8002,0x1F42,1,Platform,2,Air,165,Pakistan,25,Special Operations Helicopter,1,Mi-171,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+K8,Karakoram 8,8202,0x200A,1,Platform,2,Air,165,Pakistan,40,Trainer,3,PAC K-8/K-8P,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,4
+T37,T-37 Jet Trainer,8203,0x200B,1,Platform,2,Air,165,Pakistan,40,Trainer,4,Cessna 318,1,T-37 B,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,4
+T37,T-37 Jet Trainer,8203,0x200B,1,Platform,2,Air,165,Pakistan,40,Trainer,4,Cessna 318,2,T-37 C,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,4
+SuperMushak,Super Mushak,8201,0x2009,1,Platform,2,Air,165,Pakistan,40,Trainer,1,PAC MFI-17,2,Super Mushak,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,4
+FalcoUAV,Falco UAV,7503,0x1D4F,1,Platform,2,Air,165,Pakistan,50,Unmanned,1,Selex ES Falco,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+BuraqUAV,Buraq UAV,7513,0x1D59,1,Platform,2,Air,165,Pakistan,50,Unmanned,2,Buraq,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+ShahperUAV,Shahper UAV,7514,0x1D5A,1,Platform,2,Air,165,Pakistan,50,Unmanned,3,Shahper,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+Tornado_UAV,Tornado UAV,7504,0x1D50,1,Platform,2,Air,165,Pakistan,50,Unmanned,4,Tornado,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+UqabUAV,Uqab UAV,7505,0x1D51,1,Platform,2,Air,165,Pakistan,50,Unmanned,5,Uqab,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+VectorUAV,Vector UAV,7508,0x1D54,1,Platform,2,Air,165,Pakistan,50,Unmanned,6,Vector,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+RoverUAV,Rover UAV,7509,0x1D55,1,Platform,2,Air,165,Pakistan,50,Unmanned,7,Rover,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+ShadowMKI,Shadow MKI UAV,7510,0x1D56,1,Platform,2,Air,165,Pakistan,50,Unmanned,8,Shadow MK-I,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+ATR42,ATR-42,9001,0x2329,1,Platform,2,Air,165,Pakistan,86,Civilian Fixed Wing Aircraft{:} Medium,22,Twin Engine Turboprop,1,ATR-42,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,70
+AirbusA320,Airbus A-320,9008,0x2330,1,Platform,2,Air,165,Pakistan,87,Civilian Fixed Wing Aircraft{:} Large,32,Twin Jet,2,Airbus A320,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,90
+Boeing737,Boeing 737,9003,0x232B,1,Platform,2,Air,165,Pakistan,87,Civilian Fixed Wing Aircraft{:} Large,32,Twin Jet,3,Boeing 737,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+Challenger605,Bombardier Challenger 605,9012,0x2334,1,Platform,2,Air,165,Pakistan,87,Civilian Fixed Wing Aircraft{:} Large,32,Twin Jet,4,Bombardier Challenger 605,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,70
+ATR72,ATR-72,9002,0x232A,1,Platform,2,Air,165,Pakistan,87,Civilian Fixed Wing Aircraft{:} Large,22,Twin Engine Turboprop,1,ATR-72,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,80
+BeechcraftModel1300,Beechcraft Model 1300 Airliner,9013,0x2335,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,22,Twin Engine Turboprop,1,Beechcraft Model 1300 Airliner,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,70
+AirbusA300,Airbus A300,9006,0x232E,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,32,Twin Jet,2,Airbus A300,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,90
+AirbusA310,Airbus A310,9007,0x232F,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,32,Twin Jet,3,Airbus A310,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,90
+AirbusA330,Airbus A330,9009,0x2331,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,32,Twin Jet,4,Airbus A330,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+Boeing777,Boeing 777,9005,0x232D,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,32,Twin Jet,8,Boeing 777,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+Boeing747,Boeing 747,9004,0x232C,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,34,Four Engine Jet,7,Boeing 747,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+AirbusA340,Airbus A340,9010,0x2332,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,34,Four Engine Jet,5,Airbus A340,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+Mirage2000,Dassault Mirage-2000,7019,0x1B6B,1,Platform,2,Air,99,India,1,Fighter/Air Defense,2,Mirage 2000,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1.5
+Mig21,Mikoyan MIG-21 Fishbed,7011,0x1B63,1,Platform,2,Air,99,India,1,Fighter/Air Defense,3,Mig-21,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+Mig23,Mikoyan MIG-23 Flogger,7012,0x1B64,1,Platform,2,Air,99,India,1,Fighter/Air Defense,4,Mig-23,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+Mig25,Mikoyan MIG-25 Foxbat,7013,0x1B65,1,Platform,2,Air,99,India,1,Fighter/Air Defense,5,Mig-25,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+Mig27,Mikoyan MIG-27 Flogger,7014,0x1B66,1,Platform,2,Air,99,India,2,Attack/Strike,4,Mig-27,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+Mig29,Mikoyan MIG-29 Fulcrum,7015,0x1B67,1,Platform,2,Air,99,India,1,Fighter/Air Defense,7,Mig-29,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,4
+Su30MKI,Sukhoi Su-30 MKI,7016,0x1B68,1,Platform,2,Air,99,India,1,Fighter/Air Defense,8,Su-30 MK I,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,12
+Jaguar,Jaguar Jet,7017,0x1B69,1,Platform,2,Air,99,India,2,Attack/Strike,1,HAL Jaguar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,10
+Harrier,Harrier Jet,7018,0x1B6A,1,Platform,2,Air,99,India,2,Attack/Strike,3,Harrier,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,10
+IAIHeron,IAI Heron UAV,7501,0x1D4D,1,Platform,2,Air,99,India,50,Unmanned,1,IAI Heron,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+IAISearcher,IAI Searcher,7502,0x1D4E,1,Platform,2,Air,99,India,50,Unmanned,2,IAI Searcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+DrdoAura,DRDO Aura UAV,7506,0x1D52,1,Platform,2,Air,99,India,50,Unmanned,3,Drdo-AURA,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_HQ_9P,HQ-9P,1004,0x3EC,2,Munition,1,Anti Air,165,Pakistan,1,Guided,4,HQ-9 SAM,2,HQ-9P,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+AAIRQ7Shadow,AAIRQ Shadow UAV,7511,0x1D57,1,Platform,2,Air,225,United States,50,Unmanned,8,RQ-7 Shadow UAV,1,RQ-7A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+RQ170Sentinel,RQ 170 Sentinel UAV,7512,0x1D58,1,Platform,2,Air,225,United States,50,Unmanned,37,RQ-170 Sentinel,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+MPDR_45_RADAR,MPDR 45,5001,0x1389,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,1,MPDR-45,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MPDR_60_RADAR,MPDR 60,5002,0x138A,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,2,MPDR-60,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MPDR_90_RADAR,MPDR 90,5003,0x138B,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,3,MPDR-90,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+TPS_43G_RADAR,TPS 43G,5004,0x138C,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,4,TPS-43G,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YLC_II_RADAR,YLC II,5006,0x138E,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,5,YLC-2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YLC_6_RADAR,YLC 6,5007,0x138F,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,6,YLC-6,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+TPS_77_RADAR,TPS 77,5005,0x138D,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,7,TPS-77,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ATCR_RADAR,ATCR,5008,0x1390,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,8,ATCR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPADA_DETECTION_CENTER,SPADA Detection Center,5501,0x157D,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,1,SPADA SAM System,1,Detection Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPADA_FIRE_CONTROL_CENTER,SPADA Fire Control Center,5601,0x15E1,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,1,SPADA SAM System,2,Spada Friring Section,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPADA_MUNITION_LAUNCHER,SPADA Munition Launcher,5701,0x1645,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,1,SPADA SAM System,2,Spada Friring Section,1,6-Round Missile Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_MEHRAN,Suzuki Mehran,4031,0xFBF,1,Platform,1,Land,165,Pakistan,81,Car,41,4-Door Sedan{:} Mini/Microcar (Tiny),1,Suzuki Mehran,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_GLI,Toyota Corolla GLI,4014,0xFAE,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),1,Toyota Gli,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_ALTIS,Toyota Corolla Altis,4013,0xFAD,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),2,Toyota Altis,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_XLI,Toyota Corolla XLI,4015,0xFAF,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),3,Toyota Xli,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_HONDA_CIVIC,Honda Civic,4023,0xFB7,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),4,Honda Civic,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_HONDA_CITY,Honda City,4024,0xFB8,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),5,Honda City,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_HONDA_ACCORD,Honda Accord,4046,0xFCE,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),6,Honda Accord,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_LIANA,Suzuki Liana,4025,0xFB9,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),7,Suzuki Liana,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_BALENO,Suzuki Baleno,4026,0xFBA,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),8,Suzuki Baleno,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_BMW_7_SERIES,BMW 7 Series,4047,0xFCF,1,Platform,1,Land,165,Pakistan,81,Car,44,4-Door Sedan{:} Full/Premium/Luxury (Large),1,BMW 7 Series,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_SWIFT,Suzuki Swift,4027,0xFBB,1,Platform,1,Land,165,Pakistan,81,Car,52,5-Door Hatchback{:} Economy/Compact (Small),1,Suzuki Swift,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_CULTUS,Suzuki Cultus,4028,0xFBC,1,Platform,1,Land,165,Pakistan,81,Car,52,5-Door Hatchback{:} Economy/Compact (Small),2,Suzuki Cultus,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_WAGON_R,Suzuki Wagon R,4029,0xFBD,1,Platform,1,Land,165,Pakistan,81,Car,52,5-Door Hatchback{:} Economy/Compact (Small),3,Suzuki WagonR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_ALTO,Suzuki Alto,4030,0xFBE,1,Platform,1,Land,165,Pakistan,81,Car,52,5-Door Hatchback{:} Economy/Compact (Small),4,Suzuki Alto,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SINGLE_CABIN,Single Cabin,4005,0xFA5,1,Platform,1,Land,165,Pakistan,81,Car,112,Sports Utility Vehicle (SUV){:} Economy/Compact (Small),1,Single Cabin,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_LANDCRUISER_3_DOOR,Toyota Land Cruiser 3 Door,4019,0xFB3,1,Platform,1,Land,165,Pakistan,81,Car,112,Sports Utility Vehicle (SUV){:} Economy/Compact (Small),2,Toyota Land cruiser 3 Door,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUZUKI_POTOHAR,Suzuki Potohar,4032,0xFC0,1,Platform,1,Land,165,Pakistan,81,Car,112,Sports Utility Vehicle (SUV){:} Economy/Compact (Small),3,Suzuki Potohar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_JEEP,Jeep,4040,0xFC8,1,Platform,1,Land,165,Pakistan,81,Car,112,Sports Utility Vehicle (SUV){:} Economy/Compact (Small),4,Jeep,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_DOUBLE_CABIN,Double Cabin,4006,0xFA6,1,Platform,1,Land,165,Pakistan,81,Car,113,Sports Utility Vehicle (SUV){:} Intermediate/Standard (Medium),1,Double Cabin,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_SURF,Toyota Surf,4016,0xFB0,1,Platform,1,Land,165,Pakistan,81,Car,113,Sports Utility Vehicle (SUV){:} Intermediate/Standard (Medium),2,Toyota Surf,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_Revo,Toyota Revo,4022,0xFB6,1,Platform,1,Land,165,Pakistan,81,Car,113,Sports Utility Vehicle (SUV){:} Intermediate/Standard (Medium),3,Toyota Revo,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_BMW_X5,BMW X5,4048,0xFD0,1,Platform,1,Land,165,Pakistan,81,Car,113,Sports Utility Vehicle (SUV){:} Intermediate/Standard (Medium),4,BMW X5,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SHELL_155MM,155mm Shell,1803,0x70B,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,5,155 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+VEHICLE_TOYOTA_LANDCRUISER_5_DOOR,Toyota Land Cruiser 5 Door,4021,0xFB5,1,Platform,1,Land,165,Pakistan,81,Car,114,Sports Utility Vehicle (SUV){:} Full/Premium/Luxury (Large),2,Toyota Land Cruiser 5 Door,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_HONDA_CD_70,Honda CD 70,4033,0xFC1,1,Platform,1,Land,165,Pakistan,80,Motorcycle,1,Sport/Street (Mid-Size),1,Economy/Compact,1,Honda 70,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SHELL_203MM,203mm Shell,1804,0x70C,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,6,203 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+VEHICLE_TOYOTA_HIACE,Toyota Hiace,4017,0xFB1,1,Platform,1,Land,165,Pakistan,82,Bus,1,Commuter(Flat Nose)Bus,1,Toyota Hiace,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_COASTER,Toyota Coaster,4018,0xFB2,1,Platform,1,Land,165,Pakistan,82,Bus,8,Minibus,1,Toyota Coaster,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_AIRPORT_TRANSPORT_BUS,Airport Transport Bus,4037,0xFC5,1,Platform,1,Land,165,Pakistan,82,Bus,17,Airport Transport,1,Airport Transport Bus,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_PRIVATE_BUS,Private Bus,4036,0xFC4,1,Platform,1,Land,165,Pakistan,82,Bus,2,Commuter (Snout Nose),1,Private Bus,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TRUCK,Truck,4038,0xFC6,1,Platform,1,Land,165,Pakistan,83,Single Unit Cargo Truck,10,Cargo Truck,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_OIL_TANKER,Oil Tanker,4039,0xFC7,1,Platform,1,Land,165,Pakistan,83,Single Unit Cargo Truck,20,Tanker,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_AMBULANCE,Ambulance,4001,0xFA1,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,1,Ambulance Truck,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_CRASH_TENDER,Crash Tender,4004,0xFA4,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,12,Airport Fire Engine,1,Crash Tender,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_RUNWAY_AUTO_SWEEPER,Runway Auto Sweeper,4003,0xFA3,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,70,Street Sweeper,1,Runway Sweeper,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_SUPPLY_VAN,Supply Van,4045,0xFCD,1,Platform,1,Land,165,Pakistan,83,Single Unit Cargo Truck,70,Van,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_RUNWAY_INSPECTION,Runway Inspection Vehicle,4008,0xFA8,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,1,Runway Inspection,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_FRICTION_TEST,Friction Test Vehicle,4010,0xFAA,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,2,Friction Test,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_DRAG_PARACHUTE_VAN,Drag Parachute Van,4007,0xFA7,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,3,Drag Parachute Van,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_PUSH_BACK,Push Back Vehicle,4041,0xFC9,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,4,Push Back,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_FOLLOW_ME,Follow Me Vehicle,4042,0xFCA,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,5,Follow Me,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_STAIRS_CABIN,Stairs Cabin Vehicle,4043,0xFCB,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,6,Stairs Cabin,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_STAIRS_TRUCK,Stairs Truck,4044,0xFCC,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,90,Utility Truck,7,Stairs Truck,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_BICYCLE,Bicycle,4035,0xFC3,1,Platform,1,Land,165,Pakistan,91,Non-motorized,1,Bicycle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_WATER_BOUZER,Water Bouzer,4002,0xFA2,1,Platform,1,Land,165,Pakistan,84,Single Unit Utility/Emergency Truck,122,Water Cannon Truck,1,Water Bouzer,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_BASE_COMMANDER_CAR,Base Commander Car,4011,0xFAB,1,Platform,1,Land,165,Pakistan,81,Car,43,4-Door Sedan{:} Intermediate/Standard (Medium),2,Toyota Altis,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_OC_FLYING_CAR,OC Flying Car,4012,0xFAC,1,Platform,1,Land,165,Pakistan,81,Car,52,5-Door Hatchback{:} Economy/Compact (Small),2,Suzuki Cultus,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_MOBILE_OFFICER,Mobile Officer Vehicle,4009,0xFA9,1,Platform,1,Land,165,Pakistan,81,Car,113,Sports Utility Vehicle (SUV){:} Intermediate/Standard (Medium),1,Double Cabin,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_SOLDIER,Soldier,2004,0x7D4,3,Life Form,1,Land,165,Pakistan,11,Army,1,Soldier,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_BIRD_SHOOTER,Bird Shooter,2005,0x7D5,3,Life Form,1,Land,165,Pakistan,13,Air Force,1,Weapon{:} Non-specific,0,Other,1,Bird Shooter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_MAN,Man,2002,0x7D2,3,Life Form,1,Land,165,Pakistan,130,Civilian,0,None,0,Other,0,Not Specified (Male),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_WOMAN,Woman,2003,0x7D3,3,Life Form,1,Land,165,Pakistan,130,Civilian,0,None,0,Other,100,Female,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_TECHNICIAN,Technician,2007,0x7D7,3,Life Form,1,Land,165,Pakistan,13,Air Force,150,Equipment{:} Non-specific,1,Technician,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AIM_9L,SRAAM AIM-9 L Sidewinder,1002,0x3EA,2,Munition,1,Anti Air,165,Pakistan,1,Guided,1,AIM-9-Sidewinder,1,L,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AIM_120_C5,AMRAAM AIM-120 C-5,1001,0x3E9,2,Munition,1,Anti Air,165,Pakistan,1,Guided,2,AIM-120-Amraam,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_ASPIDE_2000,ASPIDE 2000,1003,0x3EB,2,Munition,1,Anti Air,165,Pakistan,1,Guided,3,ASPIDE_2000_SAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+LIFE_FORM_DOG,Dog,2009,0x7D9,3,Life Form,1,Land,165,Pakistan,200,Mammal,1,Small Dog,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_CAT,Cat,2008,0x7D8,3,Life Form,1,Land,165,Pakistan,200,Mammal,1,Small Dog,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+TANK_ALKHALID,AlKhalid Tank,6001,0x1771,1,Platform,1,Land,165,Pakistan,1,Tank,1,AlKhalid,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+TANK_AL_ZARAR,AlZarar Tank,6002,0x1772,1,Platform,1,Land,165,Pakistan,1,Tank,2,AlZarar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+TANK_ARJUN,Arjun Tank,6003,0x1773,1,Platform,1,Land,99,India,1,Tank,1,Arjun,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+APC_TALHA,Talha APC,6201,0x1839,1,Platform,1,Land,165,Pakistan,2,Armored Fighting Vehicle,1,Talha,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+STATIC_OBJECT_TRENCH,Ditch,3002,0xBBA,5,Cultural Feature,1,Land,165,Pakistan,5,Obstacle,1,Ditch,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+STATIC_OBJECT_OBSERVATION_TOWER,Observation Tower,3001,0xBB9,5,Cultural Feature,1,Land,165,Pakistan,17,Tower,3,Observation,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_JTAC,JTAC,2010,0x7DA,3,Life Form,1,Land,165,Pakistan,11,Army,150,Equipment{:} Non-specific,1,Joint Terminal Attack Controller,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+STATIC_OBJECT_FENCE,Chain Link Fence,3004,0xBBC,5,Cultural Feature,1,Land,165,Pakistan,5,Obstacle,36,Chain Link Fence,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ARTILLERY_M110A2,M110A2 Artillery Launcher,6401,0x1901,1,Platform,1,Land,165,Pakistan,4,Self-propelled Artillery,2,M110A2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_TOWER_CONTROLLER,ATC Tower Controller,2001,0x7D1,5,Cultural Feature,1,Land,165,Pakistan,17,Tower,4,Air Traffic Control,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BOMB_GBU_32,GBU 32,1502,0x5DE,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,4,GBU 32 JDAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+BOMB_GBU_38,GBU 38,1503,0x5DF,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,5,GBU 38 JDAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+BOMB_GBU_31,GBU 31,1501,0x5DD,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,3,GBU 31 JDAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+DEFAULT_FIGHTER,Default Fighter Aircraft,7000,0x1B58,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+DEFAULT_UAV,Default UAV,7500,0x1D4C,1,Platform,2,Air,165,Pakistan,50,Unmanned,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+DEFAULT_AIRLINER,Default Airliner,9000,0x2328,1,Platform,2,Air,165,Pakistan,86,Civilian Fixed Wing Aircraft{:} Medium,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+DEFAULT_MILITARY_CARGO_TANKER,Default Military Cargo Tanker,8600,0x2198,1,Platform,2,Air,165,Pakistan,4,Cargo/Tanker,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,80
+DEFAULT_RADAR,Default Radar System,5000,0x1388,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MISSILE,Default Missile,1000,0x3E8,2,Munition,1,Anti Air,165,Pakistan,1,Guided,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+DEFAULT_MUNITION_LAUNCHER,Default Munition Laucher,5700,0x1644,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_VEHICLE,Default Vehicle,4000,0xFA0,1,Platform,1,Land,165,Pakistan,27,Civilian Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_TANK,Default Tank,6000,0x1770,1,Platform,1,Land,165,Pakistan,1,Tank,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_APC,Default Armoured Personnel Carrier,6200,0x1838,1,Platform,1,Land,165,Pakistan,2,Armored Fighting Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_ARTILLERY,Default Artillery,6400,0x1900,1,Platform,1,Land,165,Pakistan,4,Self-propelled Artillery,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_LIFE_FORM,Default Life Form (Human  animal birds etc.),2000,0x7D0,3,Life Form,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+APC_BMP_1,BMP-1,6202,0x183A,1,Platform,1,Land,99,India,2,Armored Fighting Vehicle,1,BMP-1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+APC_BMP_2,BMP-2,6203,0x183B,1,Platform,1,Land,99,India,2,Armored Fighting Vehicle,2,BMP-2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_HELICOPTER,Default Helicopter,8000,0x1F40,1,Platform,2,Air,165,Pakistan,23,Cargo Helicopter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+DEFAULT_MILITARY_AEW,Default Military AEW,8400,0x20D0,1,Platform,2,Air,165,Pakistan,8,Surveillance/C2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,80
+GMCC_C3I_SYSTEM,GMCC C3I System,5901,0x170D,1,Platform,1,Land,165,Pakistan,29,Command{:} Control{:} Communications{:} and Intelligence (C3I) System,1,Generic Mission Control Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SMCC_C3I_SYSTEM,SMCC C3I System,5902,0x170E,1,Platform,1,Land,165,Pakistan,29,Command{:} Control{:} Communications{:} and Intelligence (C3I) System,2,Sector Mission Control Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+Rafale,Dassault Rafale,7020,0x1B6C,1,Platform,2,Air,99,India,1,Fighter/Air Defense,9,Dassault Rafale,1,Rafale,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+EXPENDABLE_CHAFF,Chaff,901,0x385,8,Expendable,2,Air,165,Pakistan,1,Chaff,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_FLARE,Flare,902,0x386,8,Expendable,2,Air,165,Pakistan,2,Flare,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_COMBINED_CHAFF_AND_FLARE,Combined chaff and flare,903,0x387,8,Expendable,2,Air,165,Pakistan,3,Combined chaff and flare,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_ACTIVE_EMITTER,Active emitter,904,0x388,8,Expendable,2,Air,165,Pakistan,4,Active emitter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_PASSIVE_DECOY,Passive decoy,905,0x389,8,Expendable,2,Air,165,Pakistan,5,Passive decoy,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_WINGED_DECOY,Winged decoy,906,0x38A,8,Expendable,2,Air,165,Pakistan,6,Winged decoy,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_SIGNAL_ILLUMINATION_FLARE,Signal/Illumination Flare,907,0x38B,8,Expendable,2,Air,165,Pakistan,7,Signal/Illumination Flare,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_SMOKE_GENERATOR,Smoke Generator,908,0x38C,8,Expendable,2,Air,165,Pakistan,8,Smoke Generator,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EXPENDABLE_SAR_NIGHT_LIGHT,SAR Night Light (SRNL),909,0x38D,8,Expendable,2,Air,165,Pakistan,13,SAR Night Light (SRNL),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+J10C,J-10C Vigorous Dragon,7002,0x1B5A,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,6,Chengdu J-10,1,J-10C Vigorous Dragon,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+DEFAULT_EXPENDABLE,Default Expendable,900,0x384,8,Expendable,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_PLATFORM,Default Platform,1,0x1,1,Platform,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_PLATFORM_LAND,Default Platform Land,2,0x2,1,Platform,1,Land,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_PLATFORM_AIR,Default Platform Air,3,0x3,1,Platform,2,Air,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_PLATFORM_SURFACE,Default Platform Surface,4,0x4,1,Platform,3,Surface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_PLATFORM_SUBSURFACE,Default Platform Subsurface,5,0x5,1,Platform,4,Subsurface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_PLATFORM_SPACE,Default Platform Space,6,0x6,1,Platform,5,Space,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION,Default Munition,7,0x7,2,Munition,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_AIR,Default Munition Anti-Air,8,0x8,2,Munition,1,Anti Air,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_ARMOUR,Default Munition Anti-Armour,9,0x9,2,Munition,2,Anti-Armor,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_GUIDED_WEAPON,Default Munition Anti-Guided Weapon,10,0xA,2,Munition,3,Anti-Guided Weapon,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_RADAR,Default Munition Anti-Radar,11,0xB,2,Munition,4,Anti Radar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_SATELLITE,Default Munition Anti-Satellite,12,0xC,2,Munition,5,Anti-Satellite,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_SHIP,Default Munition Anti-Ship,13,0xD,2,Munition,6,Anti-Ship,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_SUBMARINE,Default Munition Anti-Submarine,14,0xE,2,Munition,7,Anti-Submarine,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_ANTI_PERSONNEL,Default Munition Anti-Personnel,15,0xF,2,Munition,8,Anti-Personnel,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_BATTLEFIELD_SUPPORT,Default Munition Battlefield Support,16,0x10,2,Munition,9,Battlefield Support,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_STRATEGIC,Default Munition Strategic,17,0x11,2,Munition,10,Strategic,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_MUNITION_TACTICAL,Default Munition Tactical,18,0x12,2,Munition,11,Tactical,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_LIFE_FORM_LAND,Default Life Form Land,20,0x14,3,Life Form,1,Land,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_LIFE_FORM_AIR,Default Life Form Air,21,0x15,3,Life Form,2,Air,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_LIFE_FORM_SURFACE,Default Life Form Surface,22,0x16,3,Life Form,3,Surface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_LIFE_FORM_SUBSURFACE,Default Life Form Subsurface,23,0x17,3,Life Form,4,Subsurface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_LIFE_FORM_SPACE,Default Life Form Space,24,0x18,3,Life Form,5,Space,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_ENVIRONMENTAL,Default Environmental,25,0x19,4,Environmental,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LY_80_FIRE_CONTROL_CENTER,LY-80 Fire Control Vehicle,5607,0x15E7,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,6,LY-80 SAM System,1,Control Center Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_CULTURAL_FEATURE_SURFACE,Default Cultural Feature Surface,28,0x1C,5,Cultural Feature,3,Surface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_CULTURAL_FEATURE_SUBSURFACE,Default Cultural Feature Subsurface,29,0x1D,5,Cultural Feature,4,Subsurface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_CULTURAL_FEATURE_SPACE,Default Cultural Feature Space,30,0x1E,5,Cultural Feature,5,Space,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_9P_MUNITION_LAUNCHER,HQ-9P Transporter Erector Launcher,5702,0x1646,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,2,HQ-9 Transporter Erector Launcher (TEL),2,HQ-9P TEL,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_RADIO,Default Radio,32,0x20,7,Radio,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_EXPENDABLE_LAND,Default Expendable Land,33,0x21,8,Expendable,1,Land,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_EXPENDABLE_AIR,Default Expendable Air,34,0x22,8,Expendable,2,Air,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_EXPENDABLE_SURFACE,Default Expendable Surface,35,0x23,8,Expendable,3,Surface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AS_30,AS-30,1045,0x415,2,Munition,6,Anti-Ship,165,Pakistan,1,Guided,5,AS-30,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+DEFAULT_EXPENDABLE_SPACE,Default Expendable Space,37,0x25,8,Expendable,5,Space,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SENSOR_EMITTER,Default Sensor/Emitter,38,0x26,9,Sensor/Emitter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SENSOR_EMITTER_LAND,Default Sensor/Emitter land,39,0x27,9,Sensor/Emitter,1,Land,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SENSOR_EMITTER_AIR,Default Sensor/Emitter Air,40,0x28,9,Sensor/Emitter,2,Air,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SENSOR_EMITTER_SURFACE,Default Sensor/Emitter Surface,41,0x29,9,Sensor/Emitter,3,Surface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SENSOR_EMITTER_SUBSURFACE,Default Sensor/Emitter Subsurface,42,0x2A,9,Sensor/Emitter,4,Subsurface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SENSOR_EMITTER_SPACE,Default Sensor/Emitter Space,43,0x2B,9,Sensor/Emitter,5,Space,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_16_MUNITION_LAUNCHER,HQ-16 Transporter Erector Launcher,5703,0x1647,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,3,HQ-16 SAM System,2,Transporter Erector Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+CROTALE_MUNITION_LAUNCHER,Crotale P4R Missile Firing System,5705,0x1649,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,4,Crotale SAM System,1,Crotale P4R Missile Firing System,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_LY_80,HQ-16 SAM LY-80,1005,0x3ED,2,Munition,1,Anti Air,165,Pakistan,1,Guided,5,HQ-16 SAM,1,LY-80,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_CROTALE,Crotale SAM,1006,0x3EE,2,Munition,1,Anti Air,165,Pakistan,1,Guided,6,Crotale SAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_MISTRAL,Mistral SAM,1007,0x3EF,2,Munition,1,Anti Air,165,Pakistan,1,Guided,7,Mistral SAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+MISSILE_FN_16,FN-16 SAM,1008,0x3F0,2,Munition,1,Anti Air,165,Pakistan,1,Guided,8,FN-16 SAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+MISSILE_FN_6,FN-6 SAM,1009,0x3F1,2,Munition,1,Anti Air,165,Pakistan,1,Guided,9,FN-6 SAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+MISSILE_QW_18,QW-18 SAM,1010,0x3F2,2,Munition,1,Anti Air,165,Pakistan,1,Guided,10,QW-18 SAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+MISSILE_SA_3_GOA,SA-3 Goa / S-125,1012,0x3F4,2,Munition,1,Anti Air,99,India,1,Guided,4,SA-3 Goa,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_S400,SA-21 Growler S-400,1011,0x3F3,2,Munition,1,Anti Air,99,India,1,Guided,3,SA-21 Growler,1,S-400,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+HQ_9_COMMAND_AND_CONTROL_CENTER,HQ-9 Control Center Vehicle,5401,0x1519,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,1,HQ-9 Command Post,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_16_COMMAND_AND_CONTROL_CENTER,HQ-16 Control Center Vehicle,5402,0x151A,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,3,HQ-16 SAM System,1,Control Center Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_16_FIRE_CONTROL_CENTER,HQ-16 Fire Control Radar,5603,0x15E3,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,3,HQ-16 SAM System,3,Guidance Radar Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_16_DETECTION_CENTER,HQ-16 Search Radar Vehicle,5503,0x157F,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,3,HQ-16 SAM System,4,Search Radar Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+CROTALE_DETECTION_CENTER,Crotale Radar System,5505,0x1581,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,4,Crotale SAM System,2,Crotale P4R Radar System,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_DEFAULT_PAKISTAN_ARMY_SOLDIER,Pakistan Army Default Soldier,2011,0x7DB,3,Life Form,1,Land,165,Pakistan,11,Army,1,Soldier,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_MANPADS_FN_6,Pakistan Army FN-6 MANPADS Missile Launcher,2015,0x7DF,3,Life Form,1,Land,165,Pakistan,11,Army,85,Man-Portable Air Defense System (MANPADS),3,72mm FN-6,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_MANPADS_FN_16,Pakistan Army FN-16 MANPADS Missile Launcher,2014,0x7DE,3,Life Form,1,Land,165,Pakistan,11,Army,85,Man-Portable Air Defense System (MANPADS),4,72mm FN-16,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_MANPADS_QW_18,Pakistan Army QW-18 MANPADS Missile Launcher,2016,0x7E0,3,Life Form,1,Land,165,Pakistan,11,Army,85,Man-Portable Air Defense System (MANPADS),5,72mm QW-18,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_MANPADS_MISTRAL,Pakistan Army Mistral MANPAD Missile Launcher,2013,0x7DD,3,Life Form,1,Land,165,Pakistan,11,Army,85,Man-Portable Air Defense System (MANPADS),15,90mm Mistral,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_DEFAULT_MANPADS,Pakistan Army Default MANPADS,2012,0x7DC,3,Life Form,1,Land,165,Pakistan,11,Army,85,Man-Portable Air Defense System (MANPADS),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SIMULATION_OBJECT,Default Simulation Object,0,0x0,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+Boeing_KC_777,Boeing 777 (Air to Air Refueller),8604,0x219C,1,Platform,2,Air,99,India,4,Cargo/Tanker,2,Boeing KC-777,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+PHALCON_AWACS,Phalcon Airbone Warning & Control System,8405,0x20D5,1,Platform,2,Air,99,India,8,Surveillance/C2 (Airborne Early Warning),3,Phalcon AWACS,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+P3C_ORION_ASW,P3C Orion Anti-submarine Warfare,8404,0x20D4,1,Platform,2,Air,165,Pakistan,5,ASW/Patrol/Observation,2,P3C Orion,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+TPS_77_MRR_RADAR,TPS-77 MRR (Multi-role Radar),5009,0x1391,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,1,Multi-function,1,TPS-77 MRR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+GS_100_RADAR,GS-100 Radar,5011,0x1393,9,Sensor/Emitter,1,Land,99,India,2,RF Active,1,Multi-function,1,GS-100,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ROHINI_RADAR,Rohini Radar,5010,0x1392,9,Sensor/Emitter,1,Land,99,India,2,RF Active,2,Early Warning/Surveillance,1,Rohini,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MASTER_T_RADAR,Master T Radar,5012,0x1394,9,Sensor/Emitter,1,Land,99,India,2,RF Active,2,Early Warning/Surveillance,2,Master T,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ATCR_RADAR,ATCR,5008,0x1390,9,Sensor/Emitter,1,Land,99,India,2,RF Active,2,Early Warning/Surveillance,3,ATCR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ARUDHRA_RADAR,Arudhra MPR Radar,5013,0x1395,9,Sensor/Emitter,1,Land,99,India,2,RF Active,2,Early Warning/Surveillance,4,Arudhra MPR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SURFACE_DDG_DELHI,Delhi class Destroyer,10401,0x28A1,1,Platform,3,Surface,99,India,4,Guided Missile Destroyer (DDG),1,Delhi Class,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,52500
+SURFACE_DDG_KOLKATA,Kolkata class Destroyer D63 Kolkata,10402,0x28A2,1,Platform,3,Surface,99,India,4,Guided Missile Destroyer (DDG),3,Kolkata Class,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,52500
+SURFACE_CARRIER_KUZNETSOV_CLASS,Kuznetsov Class Aircraft Carrier,10201,0x27D9,1,Platform,3,Surface,222,Russia,1,Carrier,3,Kuznetsov class,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100000
+MI35HindE,Mi-35 Hind E,8003,0x1F43,1,Platform,2,Air,165,Pakistan,20,Attack Helicopter,1,Mi-24/25/35 Hind,1,Mi-35 Hind E,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,10
+SURFACE_OIL_TANKER,Generic Oil Tanker (Water),10001,0x2711,1,Platform,3,Surface,165,Pakistan,82,Tanker (Group 3 Merchant),5,Crude Oil Tanker (up to 159{:}999 DWT),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1600000
+SURFACE_FFG_ZULFIQUAR_CLASS,F-22P Zulfiquar Class Frigate,10601,0x2969,1,Platform,3,Surface,165,Pakistan,6,Guided Missile Frigate (FFG),1,F-22P Zulfiquar Class,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,52500
+ARTILLERY_K9_VAJRA,K9 Vajra Self-propelled Artillery,6402,0x1902,1,Platform,1,Land,99,India,4,Self-propelled Artillery,1,K9 Vajra,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SURFACE_CARRIER_VIKRAMADITYA_CLASS,Vikramaditya Class Aircraft Carrier,10202,0x27DA,1,Platform,3,Surface,99,India,1,Carrier,1,Vikramaditya Class,1,INS Vikramaditya,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100000
+LIFE_FORM_PILOT,Pilot,2006,0x7D6,3,Life Form,1,Land,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_BOMB,Default Bomb,1500,0x5DC,2,Munition,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_DETECTION_CENTER,Default Detection Center,5500,0x157C,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,5,Default SAM Sytem,1,Default Detection Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_FIRE_CONTROL_CENTER,Default Fire Control Center,5600,0x15E0,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,5,Default SAM Sytem,2,Default Fire Control Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_TRAINER,Default Trainer,8200,0x2008,1,Platform,2,Air,165,Pakistan,40,Trainer,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_C3I_SYSTEM,Default C3I System,5900,0x170C,1,Platform,1,Land,165,Pakistan,29,Command{:} Control{:} Communications{:} and Intelligence (C3I) System,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SURFACE_TANKER,Default Surface Tanker,10000,0x2710,1,Platform,3,Surface,165,Pakistan,82,Tanker (Group 3 Merchant),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SURFACE_CARRIER,Default Surface Carrier,10200,0x27D8,1,Platform,3,Surface,165,Pakistan,1,Carrier,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SURFACE_GUIDED_MISSILE_DESTROYER,Default Guided Missile Destroyer DDG,10400,0x28A0,1,Platform,3,Surface,165,Pakistan,4,Guided Missile Destroyer (DDG),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SURFACE_GUIDED_MISSILE_FRIGATE,Default Guided MIssile Frigate FFG,10600,0x2968,1,Platform,3,Surface,165,Pakistan,6,Guided Missile Frigate (FFG),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+JF17_B3,JF-17 Block-III,7021,0x1B6D,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,2,JF-17 Thunder,4,Block-3,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,2
+HAL_Tejas,HAL Tejas,7022,0x1B6E,1,Platform,2,Air,99,India,1,Fighter/Air Defense,1,HAL Tejas,1,MK-1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,2
+JF17_B2,JF-17 Block-2,7023,0x1B6F,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,2,JF-17 Thunder,2,Block-2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+JF17_B2B,JF-17 Block-2B,7024,0x1B70,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,2,JF-17 Thunder,3,Block-2B,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,3
+MISSILE_MAGIC_R_550,Magic R 550,1013,0x3F5,2,Munition,1,Anti Air,165,Pakistan,1,Guided,12,Magic R 550,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_PL15,Missile PL15,1014,0x3F6,2,Munition,1,Anti Air,165,Pakistan,1,Guided,13,PL,1,15,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_PL5_IR,Missile PL5 IR,1015,0x3F7,2,Munition,1,Anti Air,165,Pakistan,1,Guided,13,PL,2,5 IR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_PL10_IIR_HOBS,Missile PL10 IIR HOBS,1016,0x3F8,2,Munition,1,Anti Air,165,Pakistan,1,Guided,13,PL,3,10 IIR HOBS,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AIM_9M,AIM 9L,1017,0x3F9,2,Munition,1,Anti Air,165,Pakistan,1,Guided,1,AIM-9-Sidewinder,2,M,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AIM_120_D,AIM 120 D,1018,0x3FA,2,Munition,1,Anti Air,165,Pakistan,1,Guided,2,AIM-120-Amraam,5,D,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AIM_120_C7,AIM 120 C7,1019,0x3FB,2,Munition,1,Anti Air,165,Pakistan,1,Guided,2,AIM-120-Amraam,4,C-7,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SD_10A,Missile SD10A,1020,0x3FC,2,Munition,1,Anti Air,165,Pakistan,1,Guided,14,SD10A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_METEOR,Meteor,1021,0x3FD,2,Munition,1,Anti Air,99,India,1,Guided,5,Meteor,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_ASTRA,Astra,1022,0x3FE,2,Munition,1,Anti Air,99,India,1,Guided,6,Astra,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AA_12,AA-12,1023,0x3FF,2,Munition,1,Anti Air,99,India,1,Guided,7,AA,1,12,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AA_11,AA-11,1024,0x400,2,Munition,1,Anti Air,99,India,1,Guided,7,AA,2,11,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_Mica_RF,Mica RF,1025,0x401,2,Munition,1,Anti Air,99,India,1,Guided,8,Mica,1,RF,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_Mica_IIR,Mica IIR,1026,0x402,2,Munition,1,Anti Air,99,India,1,Guided,8,Mica,2,IIR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_ASRAAM,ASRAAM AIM-132,1027,0x403,2,Munition,1,Anti Air,99,India,1,Guided,9,ASRAAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_PYTHON5,Python 5,1028,0x404,2,Munition,1,Anti Air,99,India,1,Guided,10,Python 5,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AIM_9X_HOBS,AIM 9X HOBS,1029,0x405,2,Munition,1,Anti Air,165,Pakistan,1,Guided,1,AIM-9-Sidewinder,5,X HOBS,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,.,0.1
+EMBRAER,Embraer AWACS,8406,0x20D6,1,Platform,2,Air,99,India,8,Surveillance/C2 (Airborne Early Warning),4,Embraer,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,80
+IL76,illyushin 76,8605,0x219D,1,Platform,2,Air,99,India,4,Cargo/Tanker,3,IL-76,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+C17,C-17 Globemaster,8606,0x219E,1,Platform,2,Air,99,India,4,Cargo/Tanker,4,C-17,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,100
+MISSILE_HQ_9B,HQ-9B,1030,0x406,2,Munition,1,Anti Air,165,Pakistan,1,Guided,4,HQ-9 SAM,1,HQ-9B,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MI24_HIND_A,Mi-24 Hind A,8007,0x1F47,1,Platform,2,Air,99,India,20,Attack Helicopter,1,Mi-24/25/35 Hind,1,Mi-24 Hind A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,5
+MISSILE_LY_80_EV,HQ-16 SAM LY-80-EV,1031,0x407,2,Munition,1,Anti Air,165,Pakistan,1,Guided,5,HQ-16 SAM,2,LY-80-EV,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+LY_80_DETECTION_CENTER,LY-80 Search Radar Vehicle,5508,0x1584,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,6,LY-80 SAM System,2,Search Radar Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SHELL_120MM,120mm Shell,1801,0x709,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,3,120 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+SHELL_125MM,125mm Shell,1802,0x70A,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,4,125 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+HQ_9B_FIRE_CONTROL_CENTER,HQ-9B Fire Control Radar,5606,0x15E6,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,3,HQ-9 Fire Control Radar,1,HQ-9B Fire Control Radar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_9P_FIRE_CONTROL_CENTER,HQ-9P Fire Control Radar,5602,0x15E2,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,3,HQ-9 Fire Control Radar,2,HQ-9P Fire Control Radar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_9B_DETECTION_CENTER,HQ-9B Search Radar Vehicle,5507,0x1583,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,4,HQ-9 Type 305B Search Radar,1,HQ-9B SR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_9P_DETECTION_CENTER,HQ-9P Search Radar Vehicle,5502,0x157E,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,4,HQ-9 Type 305B Search Radar,2,HQ-9P SR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_SHELL,Default Shell,1800,0x708,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+DrdoRustom,DRDO Rustom UAV,7507,0x1D53,1,Platform,2,Air,99,India,50,Unmanned,4,Drdo-RUSTOM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+DEFAULT_CULTURAL_FEATURE_LAND,Default Cultural Feature Land,26,0x1A,5,Cultural Feature,1,Land,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_CULTURAL_FEATURE_AIR,Default Cultural Feature Air,27,0x1B,5,Cultural Feature,2,Air,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SHELL_203MM,203mm Shell,1804,0x70C,2,Munition,9,Battlefield Support,99,India,2,Ballistic,4,203 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+SHELL_155MM,155mm Shell,1803,0x70B,2,Munition,9,Battlefield Support,99,India,2,Ballistic,3,155 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+SHELL_125MM,125mm Shell,1802,0x70A,2,Munition,9,Battlefield Support,99,India,2,Ballistic,2,125 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+SHELL_120MM,120mm Shell,1801,0x709,2,Munition,9,Battlefield Support,99,India,2,Ballistic,1,120 mm,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+LY_80_EV_MUNITION_LAUNCHER,LY-80-EV Transporter Erector Launcher,5709,0x164D,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,7,LY-80-EV SAM System,3,Transporter Erector Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LY_80_MUNITION_LAUNCHER,LY-80 Transporter Erector Launcher,5708,0x164C,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,6,LY-80 SAM System,3,Transporter Erector Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LY_80_EV_DETECTION_CENTER,LY-80-EV Search Radar Vehicle,5509,0x1585,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,7,LY-80-EV SAM System,2,Search Radar Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_9B_MUNITION_LAUNCHER,HQ-9B Transporter Erector Launcher,5707,0x164B,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,2,HQ-9 SAM System,2,HQ-9 Transporter Erector Launcher (TEL),1,HQ-9B TEL,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_TOYOTA_LANDCRUISER_PRADO,Toyota Land Cruiser Prado,4020,0xFB4,1,Platform,1,Land,165,Pakistan,81,Car,114,Sports Utility Vehicle (SUV){:} Full/Premium/Luxury (Large),2,Toyota Land Cruiser 5 Door,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VEHICLE_HONDA_CG_125,Honda CG 125,4034,0xFC2,1,Platform,1,Land,165,Pakistan,80,Motorcycle,1,Sport/Street (Mid-Size),1,Economy/Compact,2,Honda 125,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SURFACE_OIL_TANKER,Generic Oil Tanker (Water),10001,0x2711,1,Platform,3,Surface,99,India,82,Tanker (Group 3 Merchant),5,Crude Oil Tanker (up to 159{:}999 DWT),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+F15_EAGLE,F-15 Eagle,7025,0x1B71,1,Platform,2,Air,225,United States,1,Fighter/Air Defense,5,F-15 Eagle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,15
+Su35,Su-35,7026,0x1B72,1,Platform,2,Air,222,Russia,2,Attact/Strike,11,Su-35,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,10
+WING_LOONG_II,Wing Loong II,7515,0x1D5B,1,Platform,2,Air,165,Pakistan,50,Unmanned,9,Wing loong II,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+BAYRAKTAR_TB2,Bayraktar TB2,7516,0x1D5C,1,Platform,2,Air,165,Pakistan,50,Unmanned,10,Bayraktar TB2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.7
+BAYRAKTAR_AKINCI,Bayraktar Akinci,7517,0x1D5D,1,Platform,2,Air,165,Pakistan,50,Unmanned,11,Bayraktar Akinci,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.8
+BELL_412_HUEY,Bell 412 Huey,8008,0x1F48,1,Platform,2,Air,165,Pakistan,24,Observation Helicopter,3,Bell 412 Huey,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1
+BOMB_REK,REK,1504,0x5E0,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,6,REK,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AGM_65_MAVERICK,AGM-65,1036,0x40C,2,Munition,2,Anti-Armor,225,United States,1,Guided,4,AGM-65 Maverick,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_CBU_105,CBU-105,1037,0x40D,2,Munition,9,Battlefield Support,225,United States,1,Guided,22,Wind-Corrected Munitions Dispenser (WCMD),3,CBU-105 (WCMD w/BLU-108 SFW),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+MISSILE_GBU_31A_JDAM,GBU-31A,1038,0x40E,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,15,MK-84 bomb,6,GBU-31A JDAM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+MISSILE_EXOCET_SM39,Exocet,1039,0x40F,2,Munition,6,Anti-Ship,165,Pakistan,1,Guided,6,Exocet,1,SM-39 Exocet ,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AGM_88,AGM-88 HARM,1040,0x410,2,Munition,4,Anti Radar,165,Pakistan,1,Guided,1,AGM-88,1,A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_MAR_1,MAR-1,1041,0x411,2,Munition,4,Anti Radar,165,Pakistan,1,Guided,7,MAR-1,1,Mar-1 Anti-Radiation Missle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_CM_400_AKG,CM-400AKG,1042,0x412,2,Munition,6,Anti-Ship,165,Pakistan,2,Ballistic,16,CM-400AKG Cruise Missile,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_C802_AK,C-802AK,1043,0x413,2,Munition,6,Anti-Ship,165,Pakistan,1,Guided,12,CH/SH-N-6/C802AK,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AG_300_M,AG-300/M,1044,0x414,2,Munition,2,Anti-Armor,165,Pakistan,1,Guided,1,AG-300/M,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SWORD_1,Sword-1,1048,0x418,2,Munition,1,Anti Air,99,India,1,Guided,12,TC-1/SKY Sword I,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SWORD_2,Sword-2,1049,0x419,2,Munition,1,Anti Air,99,India,1,Guided,13,TC-1/SKY Sword II,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SWORD_3,Sword-3,1050,0x41A,2,Munition,1,Anti Air,99,India,1,Guided,14,TC-2/SKY Sword III,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SWORD_4,Sword-4,1051,0x41B,2,Munition,1,Anti Air,99,India,1,Guided,15,TC-2N/SKY Sword IV,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SWORD_5,Sword-5,1052,0x41C,2,Munition,1,Anti Air,99,India,1,Guided,16,TC-5/SKY Sword V,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+BOMB_MAM_L,MAM-L,1505,0x5E1,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,7,MAM-L,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.01
+BOMB_H_2_SOW,H-2,1506,0x5E2,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,8,H-2 SOW GPS Guided INS navigation,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+BOMB_H_4_SOW,H-4,1507,0x5E3,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,9,H-4 Long Range Precision Guided,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SWORD_X,Sword-X,1047,0x417,2,Munition,1,Anti Air,99,India,1,Guided,17,TC-2C/SKY Sword X,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_DERBY,DERBY,1053,0x41D,2,Munition,1,Anti Air,99,India,1,Guided,18,Derby/ Alto ,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_AA_10C,AA-10C,1032,0x408,2,Munition,1,Anti Air,99,India,1,Guided,11,AA-10C,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_BARAK,Barak 8,1033,0x409,2,Munition,3,Anti-Guided Weapon,99,India,1,Guided,1,Surface to Air,1,Barak 8,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_BRAHMOS,Brahmos,1034,0x40A,2,Munition,6,Anti-Ship,99,India,1,Guided,1,Brahmos,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+MISSILE_SPICE_2000,Spice 2000,1035,0x40B,2,Munition,9,Battlefield Support,99,India,1,Guided,1,Spice 2000,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+BARAK_RADAR,Barak Radar,5014,0x1396,9,Sensor/Emitter,1,Land,99,India,2,RF Active,3,Active Radar Homing,1,Barak Radar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_COMMAND_AND_CONTROL_CENTER,Default Command And Control,5400,0x1518,1,Platform,1,Land,165,Pakistan,34,Command Facility,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LY_80_EV_FIRE_CONTROL_CENTER,LY-80-EV Fire Control Vehicle,5605,0x15E5,1,Platform,1,Land,165,Pakistan,28,Air Defense / Missile Defense Unit Equipment,7,LY-80-EV SAM System,1,Control Center Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_21_GROWLER_FIRE_CONTROL_CENTER,SA-21 Grave Stone Engagement Radar (S-400),5604,0x15E4,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,3,SA-21 Growler SA,4,Grave Stone Engagement Radar (S-400),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_EXPENDABLE_SUBSURFACE,Default Expendable Subsurface,36,0x24,8,Expendable,4,Subsurface,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_21_GROWLER_DETECTION_CENTER,SA-21 Acquisition Radar (S-400),5504,0x1580,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,3,SA-21 Growler SA,5,SA-21 Acquisition Radar (S-400),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_3_DETECTION_CENTER,SA-3 Detection Center,5506,0x1582,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,4,SA-3 Detection Center,3,SA-3 Detection Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_3_MUNITION_LAUNCHER,SA-3 Missile Launcher (S-125),5706,0x164A,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,4,SA-3 Detection Center,2,SA-3 Missile Launcher (S-125),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_21_MUNITION_LAUNCHER,SA-21 Self-propelled TEL,5704,0x1648,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,3,SA-21 Growler SA,2,SA-21 Self-propelled TEL,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_21_COMMAND_AND_CONTROL_CENTER,SA-21 Command Post (S-400),5403,0x151B,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,3,SA-21 Growler SA,3,SA-21 Command Post (S-400),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_3_COMMAND_AND_CONTROL_CENTER,SA-3 Goa Battery C3 Van,5404,0x151C,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,4,SA-3 Detection Center,1,SA-3 Goa Battery C3 Van,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPYDER_SR_COMMAND_AND_CONTROL_CENTER,SPYDER-SR-Command and Control,5405,0x151D,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,5,SPYDER-SR-Command and Control,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPYDER_MR_COMMAND_AND_CONTROL_CENTER,SPYDER-MR-Command and Control,5406,0x151E,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,7,SPYDER-MR-Command and Control,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BARAK_COMMAND_AND_CONTROL_CENTER,BARAK Control Center Vehicle,5407,0x151F,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,10,BARAK Control Center Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPYDER_SR_MUNITION_LAUNCHER,SPYDER-SR Munition Launcher,5710,0x164E,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,6,SPYDER-SR Munition Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SPYDER_MR_MUNITION_LAUNCHER,SPYDER-MR Munition Launcher,5711,0x164F,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,8,SPYDER-MR Munition Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BARAK_MUNITION_LAUNCHER,Barak Munition Launcher,5712,0x1650,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,9,Barak Munition Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AA_13_C,AA-13C,1046,0x416,2,Munition,1,Anti Air,222,Russia,1,Guided,46,AA-13 Arrow,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.1
+LIFE_FORM_MANPADS_FIM_92_STINGER,FIM-92 STINGER,2018,0x7E2,3,Life Form,1,Land,99,India,11,Army,85,Man-Portable Air Defence System (MANPADS),2,70mm fim-92 stinger,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+LIFE_FORM_MANPADS_IGLA_S,IGLA-S,2017,0x7E1,3,Life Form,1,Land,99,India,11,Army,85,Man-Portable Air Defence System (MANPADS),1,72mm 9K38 Igla (SA-18),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+STATIC_OBJECT_BUILDING,PAK Building,3003,0xBBB,5,Cultural Feature,1,Land,165,Pakistan,2,Building,1,One-story,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+DEFAULT_CULTURAL_FEATURE,Default Cultural Feature,3000,0xBB8,5,Cultural Feature,1,Land,165,Pakistan,2,Building,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+AirbusA380,Airbus A380,9011,0x2333,1,Platform,2,Air,165,Pakistan,88,Civilian Fixed Wing Aircraft{:} Heavy,34,Four Engine Jet,6,Airbus A380,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,120
+MISSILE_SA_6_GAINFUL,Missile SA-6,1054,0x41E,2,Munition,1,Anti Air,222,Russia,1,Guided,18,SA-6 Gainful,1,SA-6A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_SA_8_GECKO,Missile SA-8,1055,0x41F,2,Munition,1,Anti Air,222,Russia,1,Guided,20,SA-8 Gecko,1,SA-8A mod 0,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+MISSILE_SA_17_GRIZZLY,Missile SA-17,1056,0x420,2,Munition,1,Anti Air,222,Russia,1,Guided,29,SA-17 Grizzly,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+SA_6_MUNITION_LAUNCHER,SA-6 TEL,5713,0x1651,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,6,SA-6 Gainful SAM System,2,SA-6 TEL,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+F16CS,F-16-CS,7027,0x1B73,1,Platform,2,Air,165,Pakistan,1,Fighter/Air Defense,1,F-16 Fighting Falcon,2,MLU,1,F-16-CS,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,1.5
+YIHA_UAV,YIHA UAV,7518,0x1D5E,1,Platform,2,Air,165,Pakistan,50,Unmanned,12,YIHA Killer Drone,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0.5
+STATIC_OBJECT_HANGER,Hanger,3005,0xBBD,5,Cultural Feature,1,Land,0,Other,2,Building,1,Hanger (One-story),1,Trapezoidal Aircraft Shelter (Trihangar) Barracks,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+STATIC_OBJECT_BUILDING_LARGE,Building-Large,3006,0xBBE,5,Cultural Feature,1,Land,0,Other,3,Tracks (Building),8,MOUT Large Concrete,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+STATIC_OBJECT_BARRACKS,Barracks,3007,0xBBF,5,Cultural Feature,1,Land,0,Other,2,Building,1,Hanger (One-story),2,Barracks,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YLC_2A_RADAR,YLC 2A,5016,0x1398,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,9,YLC-2A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YLC_18A_RADAR,YLC 18A,5017,0x1399,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,10,YLC-18A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YLC_8E_RADAR,YLC 8E,5018,0x139A,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,11,YLC-8E,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+JY_27A_RADAR,JY 27A,5019,0x139B,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,12,JY-27A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MPDR_REBORN_RADAR,MPDR REBORN,5021,0x139D,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,13,MPDR-REBORN,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+INDRA_RADAR,INDRA,5020,0x139C,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,14,INDRA,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ARTILLERY_SH_15,SH-15 Self-Propelled Artillery,6403,0x1903,1,Platform,1,Land,165,Pakistan,4,Self-propelled Artillery,3,SH-15,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+QUADCOPTER_PAK,Quadcopter PAK,7519,0x1D5F,1,Platform,2,Air,165,Pakistan,50,Unmanned,13,Quadcopter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+QUADCOPTER_IND,Quadcopter IND,7520,0x1D60,1,Platform,2,Air,99,India,50,Unmanned,5,Quadcopter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+QUADCOPTER_PAK_KILLER_DRONE,Quadcopter PAK Killer Drone,7521,0x1D61,1,Platform,2,Air,165,Pakistan,50,Unmanned,13,Quadcopter,1,Killer Drone,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+QUADCOPTER_IND_KILLER_DRONE,Quadcopter IND Killer Drone,7522,0x1D62,1,Platform,2,Air,99,India,50,Unmanned,5,Quadcopter,1,Killer Drone,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_6_COMMAND_AND_CONTROL_CENTER,SA-6 Battery C3 Vehicle,5408,0x1520,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,6,SA-6 Gainful SAM System,1,SA-6 Battery C3 Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_6_FIRE_CONTROL_CENTER,Straight Flush Engagement Radar,5608,0x15E8,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,6,SA-6 Gainful SAM System,3,Straight Flush Engagement Radar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_8_MUNITION_LAUNCHER,SA-8 TLAR ,5714,0x1652,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,7,SA-8 Gecko SAM System,2,SA-8 TLAR,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_17_COMMAND_AND_CONTROL_CENTER,SA-17 Command Post Vehicle,5409,0x1521,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,11,SA-17 Grizzly SAM System,1,SA-17 Command Post Vehicle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_17_FIRE_CONTROL_CENTER,Chair Back Engagement Radar,5609,0x15E9,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,11,SA-17 Grizzly SAM System,2,Chair Back Engagement Radar,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SA_17_MUNITION_LAUNCHER,SA-17 Launcher/Loader Vehicle (TEL),5715,0x1653,1,Platform,1,Land,222,Russia,28,Air Defense / Missile Defense Unit Equipment,11,SA-17 Grizzly SAM System,4,SA-17 Launcher/Loader Vehicle (TEL),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+Tornado_ADV,Tornado ADV,7028,0x1B74,1,Platform,2,Air,224,United Kingdom of Great Britain and Northern Ireland (GBR),1,Fighter/Air Defense,1,Tornado Air Defense Variant,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VERA_RADAR,VERA,5015,0x1397,9,Sensor/Emitter,1,Land,165,Pakistan,2,RF Active,2,Early Warning / Surveillance Radar,15,VERA,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+VERA_E,VERA E,11001,0x2AF9,9,Sensor/Emitter,1,Land,165,Pakistan,3,RF Passive (intercept and DF),16,Identification/Classification (including IFF),1,VERA E,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HS_748,Hawker Siddeley HS 748,8407,0x20D7,1,Platform,2,Air,99,India,6,Electronic Warfare (EW),1,Hawker Siddeley HS 748,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SAMYUKTA_ECM_SYSTEM,Samyukta ECM System,11005,0x2AFD,1,Platform,1,Land,99,India,7,Large Wheeled Utility Vehicle,3,Samyukta Electronic Countermeasure System,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SAMYUKTA_CC_SHELTER,Samyukta CC Shelter,11003,0x2AFB,1,Platform,1,Land,99,India,7,Large Wheeled Utility Vehicle,2,Samyukta Command & Control Shelter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+SAMYUKTA_DF_SHELTER,Samyukta DF Shelter,11004,0x2AFC,1,Platform,1,Land,99,India,6,Small Wheeled Utility Vehicle,1,Samyukta DF Shelter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EADS_ECM_SYSTEM,EADS ECM System,11008,0x2B00,1,Platform,1,Land,165,Pakistan,7,Large Wheeled Utility Vehicle - (greater than 1.25 tons),2,EADS Electronic Countermeasure System,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EADS_CC_SHELTER,EADS CC Shelter,11006,0x2AFE,1,Platform,1,Land,165,Pakistan,7,Large Wheeled Utility Vehicle - (greater than 1.25 tons),1,EADS Command & Control Shelter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+EADS_DF_SHELTER,EADS DF Shelter,11007,0x2AFF,1,Platform,1,Land,165,Pakistan,6,Small Wheeled Utility Vehicle - (0-1.25 tons),2,EADS DF Shelter,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+PENTACLE,Pentacle,11002,0x2AFA,1,Platform,1,Land,165,Pakistan,6,Small Wheeled Utility Vehicle - (0-1.25 tons),1,High Mobility Multipurpose Wheeled Vehicle,1,Pentacle,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BRAHMOS_MUNITION_LAUNCHER,Brahmos Munition Launcher,5716,0x1654,1,Platform,1,Land,99,India,28,Air Defence/ Missile Detection Center,13,Brahmos Munition Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_SPICE_250,Missile Spice-250,1057,0x421,2,Munition,9,Battlefield Support,99,India,1,Guided,2,Spice 250,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_HAMMER,Missile Hammer,1058,0x422,2,Munition,9,Battlefield Support,99,India,1,Guided,3,Hammer,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AS_14,Missile AS-14,1059,0x423,2,Munition,9,Battlefield Support,99,India,1,Guided,4,AS-14,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AS_18,Missile AS-18,1060,0x424,2,Munition,6,Anti-Ship,99,India,1,Guided,2,AS-18,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AS_20,Missile AS-20,1061,0x425,2,Munition,6,Anti-Ship,99,India,1,Guided,3,AS-20,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PAF_AGM_84_L_HARPOON,Missile AGM-84L Harpoon PAF,1062,0x426,2,Munition,6,Anti-Ship,165,Pakistan,1,Guided,1,Harpoon,1,AGM84-L,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_IAF_AGM_84_L_HARPOON,Missile AGM-84L Harpoon IAF,1065,0x429,2,Munition,6,Anti-Ship,99,India,1,Guided,4,Harpoon,1,AGM84-L,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AS_17,Missile AS-17,1063,0x427,2,Munition,6,Anti-Ship,99,India,1,Guided,5,AS-17,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_POPEYE_2,Missile Popeye 2,1064,0x428,2,Munition,6,Anti-Ship,99,India,1,Guided,6,Popeye 2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ARTILLERY_FATAH_I,Fatah-I Self-Propelled Artillery,6404,0x1904,1,Platform,1,Land,165,Pakistan,4,Self-propelled Artillery,4,Fatah-I,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_FATAH_I,Missile Fatah-I,1066,0x42A,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,7,Fatah-I,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ARTILLERY_SMERCH_PINAKA,Smerch Pinaka Self-Propelled Artillery,6405,0x1905,1,Platform,1,Land,99,India,4,Self-propelled Artillery,2,Smerch Pinaka,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+AH_64E_Apache,AH-64E Apache,8009,0x1F49,1,Platform,2,Air,99,India,20,Attack Helicopter,2,AH-64E Apache,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_ALARM,Missile ALARM,1067,0x42B,2,Munition,4,Anti Radar,224,United Kingdom of Great Britain and Northern Ireland (GBR),1,Guided,1,ALARM,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+ARTILLERY_FATAH_II,Fatah-II Self-Propelled Artillery,6406,0x1906,1,Platform,1,Land,165,Pakistan,4,Self-propelled Artillery,5,Fatah-II,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_FATAH_II,Missile Fatah-II,1068,0x42C,2,Munition,9,Battlefield Support,165,Pakistan,2,Ballistic,8,Fatah-II,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PINAKA,Missile Pinaka,1069,0x42D,2,Munition,2,Anti-Armor,99,India,1,Guided,1,Pinaka,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_AIM7_SPARROW,AIM-7 Sparrow,1070,0x42E,2,Munition,1,Anti Air,165,Pakistan,1,Guided,15,Sparrow,1,AIM-7,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BOMB_SLAMMER_1,Slammer 1,1508,0x5E4,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,10,Slammer 1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BOMB_SLAMMER_2,Slammer 2,1509,0x5E5,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,11,Slammer 2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BOMB_SLAMMER_3,Slammer 3,1510,0x5E6,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,12,Slammer 3,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BOMB_SLAMMER_4,Slammer 4,1511,0x5E7,2,Munition,9,Battlefield Support,165,Pakistan,1,Guided,13,Slammer 4,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_BLAZE_1,Blaze 1,1071,0x42F,2,Munition,4,Anti Radar,165,Pakistan,1,Guided,2,Blaze 1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_BLAZE_2,Blaze 2,1072,0x430,2,Munition,4,Anti Radar,165,Pakistan,1,Guided,3,Blaze 2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PULSE_1,Pulse 1,1073,0x431,2,Munition,4,Anti Radar,165,Pakistan,1,Guided,4,Pulse 1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PULSE_2,Pulse 2,1074,0x432,2,Munition,4,Anti Radar,165,Pakistan,1,Guided,5,Pulse 2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+J_16,J-16,7029,0x1B75,1,Platform,2,Air,45,China{:} People's Republic of (CHN),1,Fighter/Air Defense,6,Shenyang J-11 (Flanker B+),6,J-16,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_22_DETECTION_CENTER,HQ-22 Detection Center,5510,0x1586,1,Platform,1,Land,45,China{:} People's Republic of (CHN),28,Air Defense / Missile Defense Unit Equipment,14,HQ-22 SAM System,1,HQ-22 Detection Radar ,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_22_FIRE_CONTROL_CENTER,HQ-22 Fire Control Center,5610,0x15EA,1,Platform,1,Land,45,China{:} People's Republic of (CHN),28,Air Defense / Missile Defense Unit Equipment,14,HQ-22 SAM System,2,HQ-22 Fire Control Center,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HQ_22_MUNITION_LAUNCHER,HQ-22 Munition Launcher,5717,0x1655,1,Platform,1,Land,45,China{:} People's Republic of (CHN),28,Air Defense / Missile Defense Unit Equipment,14,HQ-22 SAM System,3,HQ-22 Munition Launcher,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_HQ_22,HQ-22,1075,0x433,2,Munition,1,Anti Air,45,China{:} People's Republic of (CHN),1,Guided,23,KS-1/HQ-12,5,HQ-22/FK-3,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YTG_9,YTG-9,8409,0x20D9,1,Platform,2,Air,45,China{:} People's Republic of (CHN),6,Electronic Warfare (EW),4,Y-9 EW,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+KJ_500,KJ-500,8408,0x20D8,1,Platform,2,Air,45,China{:} People's Republic of (CHN),8,Surveillance/C2 (Airborne Early Warning),3,Y-9 AEW,1,Y-9W/KJ-500,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+YY_20A,YY-20A,8607,0x219F,1,Platform,2,Air,45,China{:} People's Republic of (CHN),4,Cargo/Tanker,8,Xian Y-20,2,Y-20A,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PL_9,Missile PL-9,1076,0x434,2,Munition,1,Anti Air,45,China{:} People's Republic of (CHN),1,Guided,12,PL-9,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PL_10_PLAAF,Missile PL-10,1077,0x435,2,Munition,1,Anti Air,45,China{:} People's Republic of (CHN),1,Guided,21,PL-10,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PL_12,Missile PL-12,1078,0x436,2,Munition,1,Anti Air,45,China{:} People's Republic of (CHN),1,Guided,20,PL-12,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PL_15_PLAAF,Missile PL-15,1079,0x437,2,Munition,1,Anti Air,45,China{:} People's Republic of (CHN),1,Guided,24,PL-15,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_PL_17,Missile PL-17,1080,0x438,2,Munition,1,Anti Air,45,China{:} People's Republic of (CHN),1,Guided,28,PL-17,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_YJ_83K,Missile YJ-83K,1081,0x439,2,Munition,6,Anti-Ship,45,China{:} People's Republic of (CHN),1,Guided,11,YJ-2/C-802/CSS-N-8 Saccade,5,YJ-83K,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_KD_88,Missile KD-88,1082,0x43A,2,Munition,6,Anti-Ship,45,China{:} People's Republic of (CHN),1,Guided,11,YJ-2/C-802/CSS-N-8 Saccade,3,KD-88,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+BOMB_LS_500J,LS-500J,1512,0x5E8,2,Munition,9,Battlefield Support,45,China{:} People's Republic of (CHN),1,Guided,28,LS-500,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_RUDRAM_1,Missile Rudram 1,1083,0x43B,2,Munition,4,Anti Radar,99,India,1,Guided,1,Rudram 1,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_RUDRAM_2,Missile Rudram 2,1084,0x43C,2,Munition,4,Anti Radar,99,India,1,Guided,2,Rudram 2,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_RUDRAM_3,Missile Rudram 3,1085,0x43D,2,Munition,4,Anti Radar,99,India,1,Guided,3,Rudram 3,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HAROP,IAI Harop (LM),7523,0x1D63,1,Platform,2,Air,99,India,50,Unmanned,6,Harop,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_HARPY,Harpy,1087,0x43F,2,Munition,4,Anti Radar,99,India,1,Guided,4,Harpy,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+HARPY,IAI Harpy ,7524,0x1D64,1,Platform,2,Air,99,India,50,Unmanned,7,Harpy,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_SCALP,SCALP,1088,0x440,2,Munition,9,Battlefield Support,99,India,1,Guided,5,Storm Shadow/SCALP,1,SCALP-EG,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_BRAHMOS_ALCM,BrahMos-ALCM,1089,0x441,2,Munition,9,Battlefield Support,99,India,1,Guided,6,BrahMos,1,Air-launched cruise missile (ALCM),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+MISSILE_BRAHMOS_SLCM,BrahMos-SLCM,1086,0x43E,2,Munition,9,Battlefield Support,99,India,1,Guided,6,BrahMos,2,Surface-launched cruise missile (SLCM),0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,0,Other,NA,0
+#End

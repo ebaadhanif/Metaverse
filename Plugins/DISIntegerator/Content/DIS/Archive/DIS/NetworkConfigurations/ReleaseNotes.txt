@@ -1,0 +1,87 @@
+================================================================================
+				DIS NETWORK CONFIGURATIONS DIALOG RELEASE NOTES
+===============================================================================
+
+Version 1.2.1.0
+===============
+19/12/2024
+===============
+Changes and Fixes:
+- Changed overlay timeout to 10 seconds
+- Fixed application ID issue
+- Changed error message for every specific case
+Database Build:
+- AFISE_DB [19 Dec, 2024] [Added voice SIMNET groups]
+
+
+
+===============================================================================
+
+Version 1.2.0.0
+===============
+11/12/2024
+===============
+Changes and Fixes:
+- Added overlay while DB  is connecting
+- In case of DB connection failure, relevant error messages are handled and files are auto created 
+- Added handling for voice multicastGroups
+- Fixed arguments issues for Voice apps and extracted them in constructor along with dialog dimensions
+- Fixed issues related to SIMNET groups for all sites (i.e no Local, Base, NGN groups available)
+- Resolved site name, short name in case of no information on site is found in files
+Database Build:
+- AFISE_DB_2024 [12 Aug, 2024] [Added RCS value for all
+
+
+
+air entities]
+
+===============================================================================
+
+Version 1.1.0.0
+===============
+24/07/2024
+===============
+Changes and Fixes:
+- Saved previous state control for NIC selection combo box
+- Updated error messgages for DB and file exceptions
+- Resolved DB connection issues, ensuring smooth app execution in case of DB connection failure
+- Fixed null values exception for XML file tags' data variables
+- Resolved application names, site names and host name column title issue (Row for title i.e. ID,Name,Shortname 
+was missing)
+Database Build:
+- AFISE_DB_2024 [26 June, 2024] [Added application type descr
+
+
+
+tion and name seperately, updated stored procedure]
+
+===============================================================================
+
+Version 1.0.0.0
+===============
+26/06/2024
+===============
+Changes and Fixes:
+- Resolved db caching issues for all tables, enabled add, update delete for record on db updates
+- Added screen options to allow applications to send dialog position and made dialog moveable on the screen
+- Disabled opening of multiple dialog instances  
+Database Build:
+- AFISE_DB_2024 [26 June, 2024] [Added application type description and name seperately, updated stored procedure]
+
+===============================================================================
+
+Initial Release 
+===============
+12/06/2024
+===============
+Features:
+- Connection types, SIMNET Groups, Exercise Groups and site information from database
+- Added authentication for modifications of SIMNET groups
+- CRUD operations for local SIMNET Groups
+- Added DB Caching and file handling mechanisms
+- Added standalone simnet group handling
+- Added handling for NIC Card info, Timestamp, loopback controls etc.
+Database Build:
+- AFISE_DB_2024 [12 June, 2024] [For DIS Network Configurations Dialog Upgradation]
+
+

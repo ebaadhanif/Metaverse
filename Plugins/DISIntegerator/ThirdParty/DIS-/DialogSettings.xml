@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AutoConnectSettings>
+    <IsAutoConnect>false</IsAutoConnect>
+    <TimerInSeconds>0</TimerInSeconds>
+  </AutoConnectSettings>
+  <DimensionSettings>
+    <Width>470</Width>
+    <Height>550</Height>
+    <IsCentered>true</IsCentered>
+  </DimensionSettings>
+  <ShowLocalCardInfo>true</ShowLocalCardInfo>
+  <ShowAdvancedSettings>true</ShowAdvancedSettings>
+</DialogSettings>
