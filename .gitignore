@@ -72,3 +72,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+cesium-request-cache.sqlite
+cesium-request-cache.sqlite-wal
+cesium-request-cache.sqlite-shm
