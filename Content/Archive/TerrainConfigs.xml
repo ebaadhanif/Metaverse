@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TerrainConfig>
+	<!-- Active configuration determines which terrains are used -->
+	<ActiveConfiguration>
+		<ActiveTerrainID>2</ActiveTerrainID>
+	</ActiveConfiguration>
+	<Terrain>
+		<ID>1</ID>
+		<Name>TMS GIS Server</Name>
+		<Type>CESIUM</Type>
+		<Georeference>
+			<Longitude>70.66</Longitude>
+			<Latitude>25.47</Latitude>
+			<Height>300.0</Height>
+		</Georeference>
+		<Asset>
+			<ID>1</ID>
+			<Name>World Terrain</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>true</Visibility>
+			<Tileset_3D>
+				<!-- <Url>http://200.0.0.78:8012/Unreal/Tharparkar/dem30m/layer.json</Url>   -->
+				<Url>http://200.0.0.78:8012/unreal/Tharparkar/dem30m_minhas_bathy/layer.json </Url>
+				<TileMapServiceOverlays>
+					<Overlay>
+						<Name>Imagery4KM</Name>
+						<Url>http://200.0.0.78:8012/Pakistan/Imagery/world4km/tilemapresource.xml</Url>
+						<MinZoom>0</MinZoom>
+						<MaxZoom>5</MaxZoom>
+						<SpecifyZoomLevel>true</SpecifyZoomLevel>
+						<MaterialLayerKey>Overlay0</MaterialLayerKey>
+					</Overlay>
+					<Overlay>
+						<Name>Imagery30M</Name>
+						<Url>http://200.0.0.78:8012/Pakistan/Imagery/tiles_30m/tilemapresource.xml</Url>
+						<MinZoom>0</MinZoom>
+						<MaxZoom>14</MaxZoom>
+						<SpecifyZoomLevel>true</SpecifyZoomLevel>
+						<MaterialLayerKey>Overlay1</MaterialLayerKey>
+					</Overlay>
+					<Overlay>
+						<Name>ImageryMinhas</Name>
+						<Url>http://200.0.0.78:8012/Pakistan/Imagery/Bases_Tiles/Pakistan_bases/tile_minhas/tilemapresource.xml</Url>
+						<MinZoom>0</MinZoom>
+						<MaxZoom>18</MaxZoom>
+						<SpecifyZoomLevel>true</SpecifyZoomLevel>
+						<MaterialLayerKey>Overlay2</MaterialLayerKey>
+					</Overlay>
+					<Overlay>
+						<Name>ImageryTharparkar</Name>
+						<Url>http://200.0.0.78:8012/Pakistan/Imagery/tile_tharparkar/tilemapresource.xml</Url>
+						<MinZoom>0</MinZoom>
+						<MaxZoom>18</MaxZoom>
+						<SpecifyZoomLevel>true</SpecifyZoomLevel>
+						<MaterialLayerKey>Overlay2</MaterialLayerKey>
+					</Overlay>
+				</TileMapServiceOverlays>
+				<!--	<WebMapServiceOverlays>
+					<Overlay>
+						<Name>Contours</Name>
+						<BaseUrl>http://200.0.0.78:8090/geoserver/battlespace/wms</BaseUrl>
+						<Layers>battlespace:5000ft_30m</Layers>
+						<MaterialLayerKey>Overlay1</MaterialLayerKey>
+					</Overlay>
+					<Overlay>
+						<Name>InternationalBorder</Name>
+						<BaseUrl>http://200.0.0.78:8090/geoserver/battlespace/wms</BaseUrl>
+						<Layers>battlespace:International_Border_v7_2mm</Layers>
+						<MaterialLayerKey>Overlay2</MaterialLayerKey>
+					</Overlay>
+				</WebMapServiceOverlays> -->
+				<SplatMaps>
+					<Name>SplatMap</Name>
+					<ShpFiles>
+						<ShpFilePath>\\200.0.0.2\StorageSpace\28- Metaverse\2- PAF Metraverse\Shapefiles\SplatMappingData\Tharparker\splat_poly_new.shp</ShpFilePath>
+						<ShpFilePath>\\200.0.0.2\StorageSpace\28- Metaverse\2- PAF Metraverse\Shapefiles\SplatMappingData\Minhas\Splat_Base_Minhas.shp</ShpFilePath>
+					</ShpFiles>
+				</SplatMaps>
+			</Tileset_3D>
+		</Asset>
+		<Asset>
+			<ID>2</ID>
+			<Name>Minhas Base Models</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>true</Visibility>
+			<Tileset_3D>
+				<Url>http://200.0.0.78:8012/unreal/Minhas/3dtiles/buildings/tileset.json</Url>
+			</Tileset_3D>
+		</Asset>
+		<Asset>
+			<ID>3</ID>
+			<Name>Tharparkar HUT Models</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>true</Visibility>
+			<Tileset_3D>
+				<!-- <Url>http://200.0.0.78:8012/Unreal/Tharparkar/3Dtiles_30m/huts_output/tileset.json</Url> -->
+				<Url>http://200.0.0.78:8012/unreal/Tharparkar/3Dtiles_30m/8by4area/huts_outpute4/tileset.json</Url>
+			</Tileset_3D>
+		</Asset>
+		<Asset>
+			<ID>4</ID>
+			<Name>Tharparkar Wells Models</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>true</Visibility>
+			<Tileset_3D>
+				<!-- <Url>http://200.0.0.78:8012/Unreal/Tharparkar/3Dtiles_30m/well_output/tileset.json</Url> -->
+				<Url>http://200.0.0.78:8012/unreal/Tharparkar/3Dtiles_30m/8by4area/wells_outpute4/tileset.json</Url>
+			</Tileset_3D>
+		</Asset>
+		<Asset>
+			<ID>5</ID>
+			<Name>Shaded Releif</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>false</Visibility>
+			<Tileset_3D>
+				<Url>http://200.0.0.78:8012/Unreal/Tharparkar/dem30m/layer.json</Url>
+				<WebMapTileServiceOverlays>
+					<Overlay>
+						<Name>ShadedReleif</Name>
+						<BaseUrl>http://200.0.0.78:8090/geoserver/gwc/service/wmts</BaseUrl>
+						<Layers>battlespace:SR_PAKDEM</Layers>
+						<Format>image/png</Format>
+						<TileMatrixSetID>EPSG:4326</TileMatrixSetID>
+						<TileMatrixSetLabelPrefix>EPSG:4326:</TileMatrixSetLabelPrefix>
+						<bSpecifyZoomLevel>true</bSpecifyZoomLevel>
+						<MinZoom>1</MinZoom>
+						<MaxZoom>15</MaxZoom>
+						<MaterialLayerKey>Overlay0</MaterialLayerKey>
+						<Projection>Geographic</Projection>
+					</Overlay>
+				</WebMapTileServiceOverlays>
+				<WebMapServiceOverlays>
+					<Overlay>
+						<Name>Contours</Name>
+						<BaseUrl>http://200.0.0.78:8090/geoserver/battlespace/wms</BaseUrl>
+						<Layers>battlespace:5000ft_30m</Layers>
+						<MaterialLayerKey>Overlay1</MaterialLayerKey>
+					</Overlay>
+					<Overlay>
+						<Name>InternationalBorder</Name>
+						<BaseUrl>http://200.0.0.78:8090/geoserver/battlespace/wms</BaseUrl>
+						<Layers>battlespace:International_Border_v7_2mm</Layers>
+						<MaterialLayerKey>Overlay2</MaterialLayerKey>
+					</Overlay>
+				</WebMapServiceOverlays>
+				<SplatMaps>
+					<Name>SplatMap</Name>
+					<ShpFiles>
+						<ShpFilePath>\\200.0.0.2\StorageSpace\28- Metaverse\2- PAF Metraverse\Shapefiles\SplatMappingData\splat_poly_new.shp</ShpFilePath>
+					</ShpFiles>
+				</SplatMaps>
+			</Tileset_3D>
+		</Asset>
+		<Asset>
+			<ID>6</ID>
+			<Name>Hangers</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>true</Visibility>
+			<Tileset_3D>
+				<Url>http://200.0.0.78:8012/unreal/Minhas/3dtiles/hangers/tileset.json</Url>
+			</Tileset_3D>
+		</Asset>
+		<Asset>
+			<ID>7</ID>
+			<Name>Wood Log</Name>
+			<Type>Blank_3D_Tileset</Type>
+			<Visibility>true</Visibility>
+			<Tileset_3D>
+				<Url>http://200.0.0.78:8012/unreal/Tharparkar/3Dtiles_30m/8by4area/woodlog_outpute4/tileset.json</Url>		
+			</Tileset_3D>
+	</Asset>
+	</Terrain>
+	<Terrain>
+		<ID>2</ID>
+		<Name>Google Photorealistic</Name>
+		<Type>CESIUM</Type>
+		<Georeference>
+			<Longitude>70.66</Longitude>
+			<Latitude>25.47</Latitude>
+			<Height>300.0</Height>
+		</Georeference>
+		<Asset>
+			<ID>1</ID>
+			<Name>World Terrain</Name>
+			<Type>CesiumION_3D_Tileset</Type>
+			<Cesium_ION>
+				<Cesium_ION_AssetID>2275207</Cesium_ION_AssetID>
+				<Cesium_ION_AccessToken>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MGFlNzRjNy1jODBmLTQ4ZTItYjcwZS03ZWQ2MjE5OWU1NmYiLCJpZCI6MjA0NDg0LCJpYXQiOjE3MzU2MjMzMjd9.SnhjBaYhqZo90dutWJkxUEo7T-D-nE9pi1UK1kf2E2I</Cesium_ION_AccessToken>
+			</Cesium_ION>
+		</Asset>
+	</Terrain>
+</TerrainConfig>
+
+

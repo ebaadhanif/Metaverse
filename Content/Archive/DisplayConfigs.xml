@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DisplayConfig> 
+    <Displays>
+        <Display fov="90" camAngle="000" height="1080" width="1920" targetDisplay="0" fullScreenType="2" active="true" />
+	<Display fov="60" camAngle="060" height="1080" width="1920" targetDisplay="1" fullScreenType="1" active="false" />
+	<Display fov="60" camAngle="120" height="1080" width="1920" targetDisplay="2" fullScreenType="1" active="false" />
+	<Display fov="60" camAngle="180" height="1080" width="1920" targetDisplay="3" fullScreenType="1" active="false" />
+	<Display fov="60" camAngle="240" height="1080" width="1920" targetDisplay="4" fullScreenType="1" active="false" />
+	<Display fov="60" camAngle="300" height="1080" width="1920" targetDisplay="5" fullScreenType="1" active="false" />
+    </Displays>
+    <DisplayMode>VR</DisplayMode>
+    <AllowDisplayModeChange>true</AllowDisplayModeChange>
+</DisplayConfig>
+
+<!-- fullScreenType		1=Fullscreen (override windows desplay resolution), 2=Windowed, 3=WindowedFullscreen (simple fullscreen)-->

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+		
+		<Mode>
+			<ID>2</ID>
+			<ModeName>JTAC</ModeName>
+				<PlayerStart>
+					<Longitude>70.66</Longitude>
+					<Latitude>25.47</Latitude>
+					<Height>300.0</Height>
+				</PlayerStart>			
+			<MenuVisibility>true</MenuVisibility>	
+			<StatusBarVisibility>true</StatusBarVisibility>		
+			<Features>
+				<Feature>
+					<FeatureName>TerrainEditor</FeatureName>
+					<FeatureState>true</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>GoToLocation</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>ShadedRelief</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>SplatMap</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>Contours</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				
+				<Feature>
+					<FeatureName>Connection</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>AudioSettings</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>Weather</FeatureName>
+					<FeatureState>false</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>				
+				<Feature>
+					<FeatureName>Vegetation</FeatureName>
+					<FeatureState>true</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+				<Feature>
+					<FeatureName>VisualGraphics</FeatureName>
+					<FeatureState>true</FeatureState>
+					<FeatureButtonVisibility>true</FeatureButtonVisibility>
+				</Feature>
+			</Features>
+		</Mode>
+		
+		

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+	<ActiveMode>
+		<ActiveUIType>JTAC</ActiveUIType>   <!-- Choose From :- JTAC BSV ISR-->
+	</ActiveMode>
+    <drawingheight>
+	     <!-- Height of the drawing in meters above from terrain height-->
+        <height>5000</height> 
+    </drawingheight>
+	<!-- <3DModelsPath>D:\gROUNDeNTITIEScONFIG</3DModelsPath> -->
+	<3DModelsPath>D:\MY\Latestttt\GITHUB PROJECT MODEL PNG TEXTURES</3DModelsPath>
+	<ShapeFilesPath>D:\MY\Shapefiles</ShapeFilesPath>
+	<!-- <PCGLocalDBFilePath>\\200.0.0.2\StorageSpace\28- Metaverse\2- PAF Metraverse\PCGDatabaseFile</PCGLocalDBFilePath> -->
+	<!-- <PCGLocalDBFilePath>D:\Ebaad\Azure\PAF_Metaverse_Git\PAFMetaVerse\Plugins\CustomPCG\Content\PCGData</PCGLocalDBFilePath> -->
+	<PCGLocalDBFilePath>Plugins\CustomPCG\Content\PCGData</PCGLocalDBFilePath>
+</AppConfig>
+
