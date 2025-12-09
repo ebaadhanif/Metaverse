@@ -11,7 +11,7 @@ public class Metaverse : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput",
 			"CesiumRuntime", "XmlParser","HeadMountedDisplay" , "UMG" , "Niagara", "XRBase" , "ModelingComponents", "GeometryCore", "MeshDescription", "StaticMeshDescription",
 			"GeometryScriptingCore" ,"ProceduralMeshComponent",  "DynamicMesh" , "GeometryFramework",
-           "AFISEDrawingsLoader"  ,"InputDevicesHandler", "RuntimeModelsImporter" , "ShpFileReader", "Systems" , "TerrainSystemConfig" });
+           "AFISEDrawingsLoader" , "DISIntegerator"   ,"InputDevicesHandler","MetaverseXRSystem", "RuntimeModelsImporter" , "ShpFileReader", "Systems" , "TerrainSystemConfig" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

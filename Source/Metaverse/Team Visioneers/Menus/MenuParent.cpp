@@ -1,0 +1,21 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "MenuParent.h"
+#include "MetaverseMode.h"
+
+void UMenuParent::setState(bool state, UCheckBox* checkbox)
+{
+	if (state)
+	{
+		checkbox->SetIsChecked(true);
+	}
+	else
+	{
+		checkbox->SetIsChecked(false);
+	}
+}
+
+void UMenuParent::ApplyMode(UMetaverseMode* Mode) {
+
+}

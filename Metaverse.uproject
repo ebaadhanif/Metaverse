@@ -34,7 +34,7 @@
 				"Win64"
 			]
 		},
-		
+
 		{
 			"Name": "TerrainSystemConfig",
 			"Enabled": true
@@ -55,6 +55,14 @@
 		},
 		{
 			"Name": "Systems",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaverseXRSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "DISIntegerator",
 			"Enabled": true
 		}
 
