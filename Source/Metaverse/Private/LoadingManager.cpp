@@ -38,7 +38,7 @@ ALoadingManager::ALoadingManager()
     PrimaryActorTick.bCanEverTick = true;
     ActorClassesToSpawn.Add(AModeManager::StaticClass());
     ActorClassesToSpawn.Add(ADisplayManager::StaticClass());
-    //ActorClassesToSpawn.Add(AScalingManager::StaticClass());
+    ActorClassesToSpawn.Add(AScalingManager::StaticClass());
     ActorClassesToSpawn.Add(AVRMenuInteraction::StaticClass());    
     ActorClassesToSpawn.Add(ASplatMapping::StaticClass());
     ActorClassesToSpawn.Add(AFPSDisplay::StaticClass());

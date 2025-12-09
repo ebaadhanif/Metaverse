@@ -64,6 +64,10 @@
 		{
 			"Name": "DISIntegerator",
 			"Enabled": true
+		},
+		{
+			"Name": "MetaverseXRSystem",
+			"Enabled": true
 		}
 
 
