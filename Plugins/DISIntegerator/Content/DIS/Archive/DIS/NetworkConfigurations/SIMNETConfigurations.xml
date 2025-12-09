@@ -889,9 +889,9 @@
     <SIMNETGroupTTL>9</SIMNETGroupTTL>
     <ExerciseGroupId>0</ExerciseGroupId>
     <ExerciseGroupName>Default</ExerciseGroupName>
-    <NetworkInterfaceAddress>201.0.0.73</NetworkInterfaceAddress>
+    <NetworkInterfaceAddress>192.168.18.127</NetworkInterfaceAddress>
     <SubnetMask>255.0.0.0</SubnetMask>
-    <MACAddress>4C-D7-17-92-B2-81</MACAddress>
+    <MACAddress>4C-D7-17-92-AF-D7</MACAddress>
     <SiteId>23</SiteId>
     <SiteName>ORMS</SiteName>
     <SiteShortname>ORMS</SiteShortname>

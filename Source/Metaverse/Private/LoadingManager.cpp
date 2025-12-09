@@ -36,8 +36,8 @@
 ALoadingManager::ALoadingManager()
 {
     PrimaryActorTick.bCanEverTick = true;
-    ActorClassesToSpawn.Add(ADisplayManager::StaticClass());
     ActorClassesToSpawn.Add(AModeManager::StaticClass());
+    ActorClassesToSpawn.Add(ADisplayManager::StaticClass());
     ActorClassesToSpawn.Add(AScalingManager::StaticClass());
     ActorClassesToSpawn.Add(AVRMenuInteraction::StaticClass());    
     ActorClassesToSpawn.Add(ASplatMapping::StaticClass());
@@ -47,7 +47,7 @@ ALoadingManager::ALoadingManager()
     ActorClassesToSpawn.Add(AAirBaseManager::StaticClass());
     ActorClassesToSpawn.Add(AExerciseStatsManager::StaticClass());
     ActorClassesToSpawn.Add(AVisualEffectsController::StaticClass());
-   // ActorClassesToSpawn.Add(ANetworkManager::StaticClass());  
+    ActorClassesToSpawn.Add(ANetworkManager::StaticClass());  
 }
 
 void ALoadingManager::BeginPlay()
@@ -121,14 +121,14 @@ void ALoadingManager::SpawnAllActors()
 {
     for (int i = 0; i < ActorClassesToSpawn.Num(); i++)
     {
-      // if (ActorClassesToSpawn[i] == APCGManager::StaticClass())
-        {
-            if ((!AModeManager::getInstance()->getActiveMode()->ButtonStates.FindRef(EButtonsName::Vegetation).FeatureActive) && (!AModeManager::getInstance()->getActiveMode()->ButtonStates.FindRef(EButtonsName::Vegetation).buttonVisibility))
-            {
-                continue;
-            }
+       //if (ActorClassesToSpawn[i] == APCGManager::StaticClass())
+       // {
+       //     if ((!AModeManager::getInstance()->getActiveMode()->ButtonStates.FindRef(EButtonsName::Vegetation).FeatureActive) && (!AModeManager::getInstance()->getActiveMode()->ButtonStates.FindRef(EButtonsName::Vegetation).buttonVisibility))
+       //     {
+       //         continue;
+       //     }
 
-        }
+       // }
         if (i < ActorClassesToSpawn.Num())
         {
 

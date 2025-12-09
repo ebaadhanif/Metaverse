@@ -11,11 +11,11 @@ AModeManager::AModeManager()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-    const FString ConfigPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Archive/AppConfig.xml"));
-    const FString ConfigModeFolderPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Archive/Modes"));
-    if (!LoadModesFromConfig(ConfigModeFolderPath, ConfigPath)) {
-        return;
-    }
+    //const FString ConfigPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Archive/AppConfig.xml"));
+    //const FString ConfigModeFolderPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Archive/Modes"));
+    //if (!LoadModesFromConfig(ConfigModeFolderPath, ConfigPath)) {
+    //    return;
+    //}
 
 }
 
@@ -24,6 +24,11 @@ void AModeManager::BeginPlay()
 {
 	Super::BeginPlay();
     instance = this;
+    const FString ConfigPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Archive/AppConfig.xml"));
+    const FString ConfigModeFolderPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Archive/Modes"));
+    if (!LoadModesFromConfig(ConfigModeFolderPath, ConfigPath)) {
+        return;
+    }
 	
 }
 
@@ -136,7 +141,11 @@ bool AModeManager::LoadModesFromConfig(const FString& ConfigFileFolder, const FS
 }
 
 UMetaverseMode* AModeManager::getActiveMode() {
-    return ActiveMode;
+    if (ActiveMode!=nullptr)
+    {
+        return ActiveMode;
+    }
+    return ActiveMode = NewObject<UMetaverseMode>(GetTransientPackage());
 }
 
 
