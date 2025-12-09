@@ -23,7 +23,7 @@ void UEntityListUI::NativeConstruct()
 
 void UEntityListUI::AddEntityCallsignTolist(AEntityBase* entity)
 {
-	/*EntityButton = NewObject<UButton>(this);
+	EntityButton = NewObject<UButton>(this);
 	Label = NewObject<UTextBlock>(this);
 	Label->SetText(FText::FromString(entity->GetCallSign()));
 	FSlateFontInfo FontInfo = Label->Font;
@@ -45,7 +45,7 @@ void UEntityListUI::AddEntityCallsignTolist(AEntityBase* entity)
 
 	ButtonToEntityMap.Add(EntityButton, entity);
 	EntityButton->OnClicked.AddUniqueDynamic(this, &UEntityListUI::OnEntityButtonClick);
-	EntityScrollBox->AddChild(EntityButton);*/
+	EntityScrollBox->AddChild(EntityButton);
 
 }
 
@@ -68,7 +68,7 @@ void UEntityListUI::RemoveEntityCallsignFromList(AEntityBase* entity)
 
 void UEntityListUI::SearchEntityList(const FString& SearchTerm)
 {
-	/*ButtonToEntityMap.Empty();
+	ButtonToEntityMap.Empty();
 	EntityScrollBox->ClearChildren();
 
 	if (!EntityManager::GetEntityManagerInstance()->GetEntityList().IsEmpty())
@@ -105,7 +105,7 @@ void UEntityListUI::SearchEntityList(const FString& SearchTerm)
 				}
 			}
 		}
-	}*/
+	}
 }
 void UEntityListUI::OnEntityButtonClick()
 {

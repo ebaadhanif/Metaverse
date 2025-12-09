@@ -980,28 +980,28 @@ void AWeatherController::ResetSkySettingsToDefault()
 void AWeatherController::CallCompleteClearSkiesondefault()
 {
 
-    //const FWeatherPreset CustomPreset = SWeatherPresetsDefined::GetPresetByName("CompleteClearSkies");
+    const FWeatherPreset CustomPreset = SWeatherPresetsDefined::GetPresetByName("CompleteClearSkies");
 
-    //if (CustomPreset.Name == "CompleteClearSkies")
-    //{
+    if (CustomPreset.Name == "CompleteClearSkies")
+    {
 
-    //    UE_LOG(LogTemp, Log, TEXT("Preset 'CompleteClearSkies' found."));
-    //}
-    //else
-    //{
-    //
-    //    UE_LOG(LogTemp, Log, TEXT("Preset 'CompleteClearSkies' not found!"));
-    //
-    //}
+        UE_LOG(LogTemp, Log, TEXT("Preset 'CompleteClearSkies' found."));
+    }
+    else
+    {
+    
+        UE_LOG(LogTemp, Log, TEXT("Preset 'CompleteClearSkies' not found!"));
+    
+    }
 
 
-    //if (CustomPreset.Name != "Default")
-    //{
-    //    ResetToManualWeather();
-    //    ResetSkySettingsToDefault();
-    //    //EditableProperties = CustomPreset.Properties;
-    //    updateWeather(CustomPreset.Properties);
-    //}
+    if (CustomPreset.Name != "Default")
+    {
+        ResetToManualWeather();
+        ResetSkySettingsToDefault();
+        //EditableProperties = CustomPreset.Properties;
+        updateWeather(CustomPreset.Properties);
+    }
 
 
 }

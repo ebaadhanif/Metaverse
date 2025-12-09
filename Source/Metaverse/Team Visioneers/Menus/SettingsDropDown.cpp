@@ -263,20 +263,20 @@ void USettingsDropDown::OnAudioSettingsButtonClick()
 
 void USettingsDropDown::OnWeatherButtonClick()
 {
-	//UIManager::GetInstance()->HideMenu(EMenus::GraphicsDropDown);
-	//UIManager::GetInstance()->HideMenu(EMenus::DrawingsDropDown);
-	//TSharedRef<SWindow> DialogWindow = SNew(SWindow)
-	//	.Title(FText::FromString("Weather Settings"))
-	//	.ClientSize(FVector2D(400, 600))
-	//	.SupportsMinimize(false)
-	//	.SupportsMaximize(false)
-	//	[
-	//		SNew(SWeatherSettingsDialog).WeatherController(WeatherController)
-	//	];
+	UIManager::GetInstance()->HideMenu(EMenus::GraphicsDropDown);
+	UIManager::GetInstance()->HideMenu(EMenus::DrawingsDropDown);
+	TSharedRef<SWindow> DialogWindow = SNew(SWindow)
+		.Title(FText::FromString("Weather Settings"))
+		.ClientSize(FVector2D(400, 600))
+		.SupportsMinimize(false)
+		.SupportsMaximize(false)
+		[
+			SNew(SWeatherSettingsDialog).WeatherController(WeatherController)
+		];
 
-	//WeatherSettingsWindow = DialogWindow;
+	WeatherSettingsWindow = DialogWindow;
 
-	//FSlateApplication::Get().AddWindow(DialogWindow);
+	FSlateApplication::Get().AddWindow(DialogWindow);
 }
 
 void USettingsDropDown::InitializeWeatherController()
