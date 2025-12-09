@@ -38,7 +38,7 @@ ALoadingManager::ALoadingManager()
     PrimaryActorTick.bCanEverTick = true;
     ActorClassesToSpawn.Add(AModeManager::StaticClass());
     ActorClassesToSpawn.Add(ADisplayManager::StaticClass());
-    ActorClassesToSpawn.Add(AScalingManager::StaticClass());
+    //ActorClassesToSpawn.Add(AScalingManager::StaticClass());
     ActorClassesToSpawn.Add(AVRMenuInteraction::StaticClass());    
     ActorClassesToSpawn.Add(ASplatMapping::StaticClass());
     ActorClassesToSpawn.Add(AFPSDisplay::StaticClass());
@@ -47,7 +47,7 @@ ALoadingManager::ALoadingManager()
     ActorClassesToSpawn.Add(AAirBaseManager::StaticClass());
     ActorClassesToSpawn.Add(AExerciseStatsManager::StaticClass());
     ActorClassesToSpawn.Add(AVisualEffectsController::StaticClass());
-    ActorClassesToSpawn.Add(ANetworkManager::StaticClass());  
+   // ActorClassesToSpawn.Add(ANetworkManager::StaticClass());  
 }
 
 void ALoadingManager::BeginPlay()
@@ -69,7 +69,7 @@ void ALoadingManager::BeginPlay()
     GEngine->Exec(GetWorld(), TEXT("r.Streaming.PoolSize 8000"));
     GEngine->Exec(GetWorld(), TEXT("r.TextureStreaming 1"));
     GEngine->Exec(GetWorld(), TEXT("r.Shadow.Virtual.SMRT.RayCountLocal 8"));
-    GEngine->Exec(GetWorld(), TEXT("t.MaxFPS 400"));
+    GEngine->Exec(GetWorld(), TEXT("t.MaxFPS 1000"));
 
     SpawnAllActors();
     ACesiumGeoreference* Goereference = ACesiumGeoreference::GetDefaultGeoreference(GetWorld());
@@ -320,23 +320,23 @@ void ALoadingManager::Tick(float DeltaSeconds)
     multiplier = FMath::Clamp(ADisplayManager::GetInstance()->FreeCamPawn->heightFromGround * 180, 0.0f, 500000000);
 
 
-    if (MPC_Inst)
-    {
-        //FVector PawnLLH = CesiumGlobeMovementHandler::GetInstance()->m_DefaultGeoreferenceActor->TransformUnrealPositionToEarthCenteredEarthFixed(ADisplayManager::GetInstance()->FreeCamPawn->GetActorLocation());
-        //FVector UnrealPivot = CesiumGlobeMovementHandler::GetInstance()->m_DefaultGeoreferenceActor->TransformLongitudeLatitudeHeightPositionToUnreal(PawnLLH);
-        MPC_Inst->SetScalarParameterValue(FName("Diameter"), NormalizedHeight);
-        // CesiumMaterialBaseDynamicInstanceMaterial->SetScalarParameterValue(FName("Diameter"), NormalizedHeight);
-    }
+    //if (MPC_Inst)
+    //{
+    //    //FVector PawnLLH = CesiumGlobeMovementHandler::GetInstance()->m_DefaultGeoreferenceActor->TransformUnrealPositionToEarthCenteredEarthFixed(ADisplayManager::GetInstance()->FreeCamPawn->GetActorLocation());
+    //    //FVector UnrealPivot = CesiumGlobeMovementHandler::GetInstance()->m_DefaultGeoreferenceActor->TransformLongitudeLatitudeHeightPositionToUnreal(PawnLLH);
+    //    MPC_Inst->SetScalarParameterValue(FName("Diameter"), NormalizedHeight);
+    //    // CesiumMaterialBaseDynamicInstanceMaterial->SetScalarParameterValue(FName("Diameter"), NormalizedHeight);
+    //}
 
-    if (ADisplayManager::GetInstance()->FreeCamPawn->heightFromGround > CesiumGlobeMovementHandler::GetInstance()->OriginHeightM + 100000)
-    {
-        MPC_Inst->SetVectorParameterValue(FName("Pivot"), FVector(0.0f, 0.325f, 34020.0f));
+    //if (ADisplayManager::GetInstance()->FreeCamPawn->heightFromGround > CesiumGlobeMovementHandler::GetInstance()->OriginHeightM + 100000)
+    //{
+    //    MPC_Inst->SetVectorParameterValue(FName("Pivot"), FVector(0.0f, 0.325f, 34020.0f));
 
-    }
-    else
-    {
-        MPC_Inst->SetVectorParameterValue(FName("Pivot"), FVector(ADisplayManager::GetInstance()->FreeCamPawn->GetActorLocation().X + multiplier, ADisplayManager::GetInstance()->FreeCamPawn->GetActorLocation().Y, 34020.0));
-    }
+    //}
+    //else
+    //{
+    //    MPC_Inst->SetVectorParameterValue(FName("Pivot"), FVector(ADisplayManager::GetInstance()->FreeCamPawn->GetActorLocation().X + multiplier, ADisplayManager::GetInstance()->FreeCamPawn->GetActorLocation().Y, 34020.0));
+    //}
 
     }
 }
