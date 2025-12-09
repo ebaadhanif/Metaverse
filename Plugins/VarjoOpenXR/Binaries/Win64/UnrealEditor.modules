@@ -1,0 +1,10 @@
+{
+	"BuildId": "47537391",
+	"Modules": 
+	{
+		"VarjoHandInteraction": "UnrealEditor-VarjoHandInteraction.dll",
+		"VarjoOpenXR": "UnrealEditor-VarjoOpenXR.dll",
+		"VarjoOpenXREditor": "UnrealEditor-VarjoOpenXREditor.dll",
+		"VarjoOpenXRRuntimeSettings": "UnrealEditor-VarjoOpenXRRuntimeSettings.dll"
+	}
+}
