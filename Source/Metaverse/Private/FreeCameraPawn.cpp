@@ -15,7 +15,6 @@
 #include <glm/vec3.hpp>
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "GameFramework/SpringArmComponent.h"
-//#include "PCGSystem.h"
 #include "Components/CapsuleComponent.h"
 #include "DWGXDrawingManager.h"
 #include <Metaverse/Team Visioneers/VR_Menus/UIManagerVR.h>
@@ -25,8 +24,8 @@
 AFreeCameraPawn::AFreeCameraPawn()
 {
     // setting PCG Generation Source:
-    //PCGGenSource = CreateDefaultSubobject<UPCGGenSourceComponent>(TEXT("PCGGenSource"));
-    //PCGGenSource->SetAutoActivate(true);
+    PCGGenSource = CreateDefaultSubobject<UPCGGenSourceComponent>(TEXT("PCGGenSource"));
+    PCGGenSource->SetAutoActivate(true);
 
 
     GlobeAnchor = CreateDefaultSubobject<UCesiumGlobeAnchorComponent>(TEXT("GlobeAnchor"));
@@ -74,17 +73,6 @@ AFreeCameraPawn::AFreeCameraPawn()
     RightHandMesh->SetRelativeRotation(FRotator(0.f, 90.f, 0.f)); // Mirror the left hand
     RightHandMesh->SetRelativeScale3D(FVector(0.5f));
 
-    //RemoteEntityWidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("RemoteEntityWidgetComponent"));
-    //RemoteEntityWidgetComponent->SetupAttachment(Camera);
-    //RemoteEntityWidgetComponent->SetWidgetSpace(EWidgetSpace::World);
-    //RemoteEntityWidgetComponent->SetWorldScale3D(FVector(0.1f));
-    //RemoteEntityWidgetComponent->SetHiddenInGame(false);
-    ////RemoteEntityWidgetComponent->SetDrawSize(FVector2D(2048.0f, 2048.0f));
-    //RemoteEntityWidgetComponent->SetDrawSize(FIntPoint(1024.0f, 1024.0f));
-    //RemoteEntityWidgetComponent->SetVisibility(false);
-    //RemoteEntityWidgetComponent->SetRelativeLocation(FVector(150.0f, -10.0f, -25.0f));
-    //RemoteEntityWidgetComponent->SetRelativeRotation(FRotator(0.f, 180.f, 0.f));
-
     ExerciseStatsWidgetComponent = CreateDefaultSubobject<UWidgetComponent>(TEXT("ExerciseStatsWidgetComponent"));
     ExerciseStatsWidgetComponent->SetWidgetSpace(EWidgetSpace::World);
     ExerciseStatsWidgetComponent->SetWorldScale3D(FVector(0.1f));
@@ -120,13 +108,6 @@ AFreeCameraPawn::AFreeCameraPawn()
         CompassWidgetClass = CompassWidgetBP.Class;
         CompassWidgetComponent->SetWidgetClass(CompassWidgetClass);
     }
-
-  /*  static ConstructorHelpers::FClassFinder<UUserWidget> RemoteEntityPreview(TEXT("/Game/Blueprints/WBP_RemoteEntityPreview"));
-    if (RemoteEntityPreview.Succeeded())
-    {
-        RemoteEntityPreviewClass = RemoteEntityPreview.Class;
-        RemoteEntityWidgetComponent->SetWidgetClass(RemoteEntityPreviewClass);
-    }*/
 
     static ConstructorHelpers::FClassFinder<AActor> CaptureBPClass(TEXT("/Game/Blueprints/BP_RemoteEntityPreview"));
     if (CaptureBPClass.Succeeded())
@@ -171,11 +152,11 @@ void AFreeCameraPawn::BeginPlay()
     Super::BeginPlay();
     PlayerControllerRef = UGameplayStatics::GetPlayerController(GetWorld(), 0);
     //Setting PCG:
-    //PCGGenSource = NewObject<UPCGGenSourceComponent>(this, TEXT("PCGGenSourceDyn"));
-    //AddInstanceComponent(PCGGenSource);
-    //PCGGenSource->RegisterComponent();
-    //PCGGenSource->SetAutoActivate(true);
-    //PCGGenSource->Activate(true);
+    PCGGenSource = NewObject<UPCGGenSourceComponent>(this, TEXT("PCGGenSourceDyn"));
+    AddInstanceComponent(PCGGenSource);
+    PCGGenSource->RegisterComponent();
+    PCGGenSource->SetAutoActivate(true);
+    PCGGenSource->Activate(true);
 
    SetActorLocationAndRotation(FVector(-104710.000000, 691270.000000, -12899.000000), FRotator(0.0f, 0.0f, 0.0f));
     //SetActorRotation(FRotator(0.0f,0.0f,0.0f));
@@ -237,15 +218,6 @@ void AFreeCameraPawn::BeginPlay()
 void AFreeCameraPawn::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-    /*  if (CompassWidgetInstance)
-      {
-          CompassWidgetInstance->UpdateCompassNeedle(Yaw);
-
-      }*/
-      //GlobeAnchor->SetEastSouthUpRotation(FQuat::Identity);
-      //SetActorRotation(FRotator::ZeroRotator);
-
-
     UDWGXDrawingManager::Get(GetWorld())->CustomTick(DeltaTime);
 
 
@@ -254,7 +226,6 @@ void AFreeCameraPawn::Tick(float DeltaTime)
         MovementSpeed = MovementSpeed * 5;
     }
     FString height = FString::Printf(TEXT("MovementSpeed : %.0f"), MovementSpeed);
-    //GEngine->AddOnScreenDebugMessage(-1, 0.0, FColor::Green, height);
 
     if (CompassWidgetInstance)
     {
@@ -296,11 +267,9 @@ void AFreeCameraPawn::Tick(float DeltaTime)
 
     if (GlobeAnchor->GetHeight() > 200000) {
         ExerciseStatsWidgetComponent->SetVisibility(false);
-        //UE_LOG(LogTemp,Log,TEXT("> 200000 %d" ), bIsStatsVisible)
     }
     else {
         ExerciseStatsWidgetComponent->SetVisibility(!bIsStatsVisible);
-        //UE_LOG(LogTemp, Log, TEXT("< %d"), bIsStatsVisible)
     }
 
     if (RightController)
@@ -308,14 +277,10 @@ void AFreeCameraPawn::Tick(float DeltaTime)
         LeftControllerStart = RightController->GetComponentLocation();
         FVector ForwardVector = RightController->GetForwardVector();
         LeftControllerEnd = LeftControllerStart + (ForwardVector * 100000);
-        //DrawDebugLine(GetWorld(), LeftControllerStart, LeftControllerEnd, FColor::Red, false, 0.0f, 0, 2.0f);
     }
 
     heightFromGround = GlobeAnchor->GetHeight();
-    //if(IsHooked){
-    //   SetActorRelativeLocation(FVector(0.0f,0.0f,0.0f));
 
-    //}
 
 }
 

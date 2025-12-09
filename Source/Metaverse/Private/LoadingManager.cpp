@@ -5,7 +5,7 @@
 #include "../Team Visioneers/FPSDisplay.h"
 #include "TerrainManager.h"
 #include "../Team RenderStorm/WeatherController.h"
-//#include "PCGManager.h"
+#include "PCGManager.h"
 #include "Engine/World.h"
 #include "../Team RenderStorm/SplatMapping.h"
 #include "../Team RenderStorm/DetonationController.h"

@@ -18,7 +18,7 @@
 #include "HanTracking.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "CesiumGlobeAnchorComponent.h"
-//#include "RuntimeGen/GenSources/PCGGenSourceComponent.h"
+#include "RuntimeGen/GenSources/PCGGenSourceComponent.h"
 #include "LoadingManager.h"
 #include "FreeCameraPawn.generated.h"
 class DisplayManager;
@@ -262,8 +262,8 @@ public:
 
 	double heightFromGround = 0;
 
-	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	//UPCGGenSourceComponent* PCGGenSource;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UPCGGenSourceComponent* PCGGenSource;
 
 
 	float MinArmLength;

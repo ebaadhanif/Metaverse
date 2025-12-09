@@ -152,7 +152,7 @@ void APCGManager::BeginPlay()
 
 
 	LoadDataforPCGPoint();
-	LoadDataforPCGPolygon();
+	//LoadDataforPCGPolygon();
 
 	LoadTracker->OnAllShapefilesLoaded.AddDynamic(this, &APCGManager::HandleAllPolygonDataLoaded);
 

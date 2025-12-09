@@ -22,7 +22,38 @@
 			"Name": "XRBase",
 			"Enabled": true
 		},
-
+		{
+			"Name": "PCG",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryProcessing",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXREyeTracker",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXRHandTracking",
+			"Enabled": true
+		},
 		{
 			"Name": "InputDevicesHandler",
 			"Enabled": true
@@ -34,7 +65,6 @@
 				"Win64"
 			]
 		},
-
 		{
 			"Name": "TerrainSystemConfig",
 			"Enabled": true
@@ -63,14 +93,11 @@
 		},
 		{
 			"Name": "DISIntegerator",
-			"Enabled": true
-		},
-		{
-			"Name": "MetaverseXRSystem",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
-
-
 	],
 	"TargetPlatforms": [
 		"Windows"
